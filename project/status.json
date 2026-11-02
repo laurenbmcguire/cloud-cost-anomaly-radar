@@ -1,0 +1,206 @@
+{
+  "project": "Cloud Cost Anomaly Radar",
+  "date": "2026-11-02",
+  "health": {
+    "rag": "AMBER",
+    "reason": "AMBER: 0 overdue milestone(s), 0 open P0 item(s), 1 open risk(s) scored >= 15 (R1=16).",
+    "overdue_milestones": [],
+    "open_p0": [],
+    "high_risks": [
+      "R1"
+    ]
+  },
+  "milestones": [
+    {
+      "id": "M1",
+      "name": "Synthetic multi-cloud billing generator",
+      "due": "2026-10-19",
+      "status": "done",
+      "pct_done": 100,
+      "items": 2,
+      "overdue": false,
+      "done_criteria": "365 days x 54 series with trend, weekly and month-end seasonality, noise, 12 labelled anomalies saved with ground truth"
+    },
+    {
+      "id": "M2",
+      "name": "Detector ensemble and evaluation",
+      "due": "2026-10-26",
+      "status": "done",
+      "pct_done": 100,
+      "items": 4,
+      "overdue": false,
+      "done_criteria": "Rolling MAD, seasonal residual and Isolation Forest detectors; event-level precision/recall/F1 with +/-2 day tolerance"
+    },
+    {
+      "id": "M3",
+      "name": "Root-cause attribution and savings estimate",
+      "due": "2026-10-30",
+      "status": "done",
+      "pct_done": 100,
+      "items": 2,
+      "overdue": false,
+      "done_criteria": "Each flagged event ranked by provider/account/service delta vs baseline, with dollar excess"
+    },
+    {
+      "id": "M4",
+      "name": "FinOps report, charts and AI PM",
+      "due": "2026-11-02",
+      "status": "done",
+      "pct_done": 100,
+      "items": 3,
+      "overdue": false,
+      "done_criteria": "reports/finops_report.md, reports/summary.json, four brand charts, weekly AI PM workflow"
+    },
+    {
+      "id": "M5",
+      "name": "Cost-forecast extension",
+      "due": "2026-12-14",
+      "status": "planned",
+      "pct_done": 0,
+      "items": 3,
+      "overdue": false,
+      "done_criteria": "30-day spend forecast per provider with backtested MAPE and a budget-breach early warning"
+    },
+    {
+      "id": "M6",
+      "name": "Slack alert integration",
+      "due": "2027-01-25",
+      "status": "planned",
+      "pct_done": 0,
+      "items": 4,
+      "overdue": false,
+      "done_criteria": "Anomaly alerts posted to Slack with driver, excess and runbook link; planned events suppressed"
+    }
+  ],
+  "milestones_done": 4,
+  "milestones_total": 6,
+  "next_actions": [
+    {
+      "id": "B15",
+      "title": "Alert payload schema (event, driver, excess, runbook link)",
+      "priority": "P1",
+      "owner": "AI PM",
+      "depends_on": [
+        "B07",
+        "B08"
+      ],
+      "milestone": "M6"
+    },
+    {
+      "id": "B17",
+      "title": "Change-calendar suppression for planned events",
+      "priority": "P1",
+      "owner": "Lauren",
+      "depends_on": [
+        "B02",
+        "B06"
+      ],
+      "milestone": "M6"
+    },
+    {
+      "id": "B12",
+      "title": "Seasonal-naive and Holt-Winters 30-day forecast baseline",
+      "priority": "P1",
+      "owner": "Lauren",
+      "depends_on": [
+        "B04"
+      ],
+      "milestone": "M5"
+    }
+  ],
+  "blocked_items": [
+    "B13",
+    "B14",
+    "B16",
+    "B18"
+  ],
+  "risks": [
+    {
+      "id": "R1",
+      "risk": "Alert fatigue from false positives erodes trust in alerts",
+      "probability": 4,
+      "impact": 4,
+      "owner": "Lauren",
+      "mitigation": "2-of-3 detector vote, dollar severity tiers, planned-event suppression (B17) before Slack goes live",
+      "status": "open",
+      "score": 16,
+      "heat": "High"
+    },
+    {
+      "id": "R2",
+      "risk": "Billing data latency (24-72h) and late restatements delay or distort detection",
+      "probability": 4,
+      "impact": 3,
+      "owner": "AI PM",
+      "mitigation": "Score only finalised days, re-run on restated data, alert only on upward moves",
+      "status": "open",
+      "score": 12,
+      "heat": "Medium"
+    },
+    {
+      "id": "R3",
+      "risk": "Poor tag hygiene limits attribution below the account/service level",
+      "probability": 3,
+      "impact": 4,
+      "owner": "Lauren",
+      "mitigation": "Attribute on account and service first (no tags needed); add a tag-coverage KPI before team-level rollups",
+      "status": "open",
+      "score": 12,
+      "heat": "Medium"
+    },
+    {
+      "id": "R4",
+      "risk": "Synthetic data overstates real-world detection accuracy",
+      "probability": 4,
+      "impact": 3,
+      "owner": "Lauren",
+      "mitigation": "Multi-seed robustness check, results labelled as synthetic, validate on a FOCUS-format export before any claim",
+      "status": "open",
+      "score": 12,
+      "heat": "Medium"
+    },
+    {
+      "id": "R5",
+      "risk": "Seasonal baseline breaks on structural changes (migrations, commitment purchases)",
+      "probability": 3,
+      "impact": 3,
+      "owner": "AI PM",
+      "mitigation": "Trailing-median level adapts in about two weeks; add change-point reset in the forecast milestone",
+      "status": "open",
+      "score": 9,
+      "heat": "Medium"
+    },
+    {
+      "id": "R6",
+      "risk": "Credits, refunds and amortised commitments distort daily cost",
+      "probability": 2,
+      "impact": 3,
+      "owner": "Lauren",
+      "mitigation": "Use amortised net cost and exclude credit line items when real exports are loaded",
+      "status": "open",
+      "score": 6,
+      "heat": "Low"
+    },
+    {
+      "id": "R7",
+      "risk": "LLM executive summary drifts from computed facts",
+      "probability": 2,
+      "impact": 2,
+      "owner": "AI PM",
+      "mitigation": "Facts-only prompt, word-count guard and deterministic fallback; LLM is optional",
+      "status": "open",
+      "score": 4,
+      "heat": "Low"
+    }
+  ],
+  "data_insights": [
+    "Analysed 365 days of synthetic spend across 3 providers and 54 series ($15,243,719 total, $41,764 per day).",
+    "The ensemble flagged 14 events: precision 0.93, recall 1.00, F1 0.96 against 12 injected anomalies; none missed.",
+    "Largest event E05 (2025-05-07 to 2025-05-20) carried $15,016 excess, driven by AWS S3 in aws-prod-core.",
+    "Root-cause attribution ranked the injected series first for 12 of 12 detected anomalies (100%).",
+    "Savings estimate covers 65% of the injected excess on detected anomalies ($92,693 of $142,213); 1 false-positive event(s), 1 of them on planned events."
+  ],
+  "change_log": "2026-11-02: status run. Health AMBER; ensemble F1 0.96 on 14 events. Next focus: B15 Alert payload schema (event, driver, excess, runbook link).",
+  "executive_summary": "Cloud Cost Anomaly Radar is AMBER as of 2026-11-02 (open risks scoring 15+: R1). 4 of 6 milestones are done; still open: Cost-forecast extension, Slack alert integration. The ensemble flagged 14 events: precision 0.93, recall 1.00, F1 0.96 against 12 injected anomalies; none missed. Top risk is R1 (Alert fatigue from false positives erodes trust in alerts), score 16 (High). Next actions: B15 Alert payload schema (event, driver, excess, runbook link); B17 Change-calendar suppression for planned events; B12 Seasonal-naive and Holt-Winters 30-day forecast baseline.",
+  "executive_summary_source": "deterministic template"
+}

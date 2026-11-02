@@ -1,0 +1,3047 @@
+{
+  "project": "cloud-cost-anomaly-radar",
+  "seed": 42,
+  "data": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "days": 365,
+    "providers": 3,
+    "services": 18,
+    "accounts": 9,
+    "series": 54,
+    "line_items": 19710,
+    "total_spend_usd": 15243719.45,
+    "avg_daily_spend_usd": 41763.61,
+    "spend_by_provider_usd": {
+      "AWS": 7324679.39,
+      "Azure": 4660513.02,
+      "GCP": 3258527.04
+    },
+    "injected_anomalies": 12,
+    "injected_excess_usd": 142213.23,
+    "planned_events": 2
+  },
+  "config": {
+    "mad_window": 28,
+    "mad_threshold": 4.5,
+    "seasonal_window": 21,
+    "seasonal_threshold": 4.5,
+    "if_contamination": 0.08,
+    "if_estimators": 300,
+    "min_votes": 2,
+    "warmup_days": 21,
+    "seed": 42,
+    "tolerance_days": 2,
+    "event_merge_gap_days": 1
+  },
+  "detectors": {
+    "rolling_mad": {
+      "predicted_events": 22,
+      "true_events": 12,
+      "true_positive_events": 14,
+      "false_positive_events": 8,
+      "detected_anomalies": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "missed_anomalies": [
+        "A09"
+      ],
+      "precision": 0.6364,
+      "recall": 0.9167,
+      "f1": 0.7512,
+      "flagged_days": 57
+    },
+    "seasonal_residual": {
+      "predicted_events": 16,
+      "true_events": 12,
+      "true_positive_events": 14,
+      "false_positive_events": 2,
+      "detected_anomalies": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "missed_anomalies": [],
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333,
+      "flagged_days": 75
+    },
+    "isolation_forest": {
+      "predicted_events": 14,
+      "true_events": 12,
+      "true_positive_events": 13,
+      "false_positive_events": 1,
+      "detected_anomalies": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "missed_anomalies": [],
+      "precision": 0.9286,
+      "recall": 1.0,
+      "f1": 0.963,
+      "flagged_days": 25
+    },
+    "ensemble": {
+      "predicted_events": 14,
+      "true_events": 12,
+      "true_positive_events": 13,
+      "false_positive_events": 1,
+      "detected_anomalies": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "missed_anomalies": [],
+      "precision": 0.9286,
+      "recall": 1.0,
+      "f1": 0.963,
+      "flagged_days": 47
+    }
+  },
+  "best_single_detector": "isolation_forest",
+  "ensemble": {
+    "precision": 0.9286,
+    "recall": 1.0,
+    "f1": 0.963,
+    "events_flagged": 14,
+    "false_positive_events": 1,
+    "false_positives_on_planned_events": 1,
+    "missed_anomalies": []
+  },
+  "attribution": {
+    "detected_anomalies": 12,
+    "top1_driver_correct": 12,
+    "top1_accuracy": 1.0,
+    "top3_accuracy": 1.0
+  },
+  "savings": {
+    "estimated_excess_usd_all_events": 96432.49,
+    "estimated_excess_usd_matched_events": 92692.53,
+    "injected_excess_usd_detected_anomalies": 142213.23,
+    "capture_ratio": 0.6518
+  },
+  "largest_anomaly": {
+    "event_id": "E05",
+    "start": "2025-05-07",
+    "end": "2025-05-20",
+    "excess_usd": 15015.88,
+    "driver": {
+      "provider": "AWS",
+      "account": "aws-prod-core",
+      "service": "S3",
+      "delta_usd": 12924.85,
+      "share": 0.6989,
+      "category": "storage"
+    },
+    "matched_truth": "A05"
+  },
+  "anomalies": [
+    {
+      "event_id": "E01",
+      "start": "2025-02-11",
+      "end": "2025-02-12",
+      "flagged_days": 2,
+      "pattern": "spike",
+      "peak_date": "2025-02-12",
+      "ensemble_score_peak": 3.232,
+      "top_monitor": "Provider: AWS",
+      "excess_usd": 10056.62,
+      "peak_excess_usd": 5040.77,
+      "excess_pct_of_baseline": 0.1266,
+      "severity": "High",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-dev-sandbox",
+        "service": "EC2",
+        "delta_usd": 9449.95,
+        "share": 0.8389,
+        "category": "compute"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-dev-sandbox",
+            "service": "EC2",
+            "delta_usd": 9449.95,
+            "share": 0.8389
+          },
+          {
+            "provider": "Azure",
+            "account": "az-analytics",
+            "service": "Virtual Machines",
+            "delta_usd": 244.58,
+            "share": 0.0217
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "SageMaker Inference",
+            "delta_usd": 227.34,
+            "share": 0.0202
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "Athena",
+            "delta_usd": 164.58,
+            "share": 0.0146
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-ml-research",
+            "service": "Vertex AI Prediction",
+            "delta_usd": 141.01,
+            "share": 0.0125
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 9888.9
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 415.35
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 342.42
+          }
+        ],
+        "by_service": [
+          {
+            "name": "EC2",
+            "delta_usd": 9389.44
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 301.91
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 283.6
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 268.34
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 116.3
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 106.24
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 101.73
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 74.09
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 60.99
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 54.44
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 45.11
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 32.85
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 18.13
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": -12.12
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": -20.4
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -26.93
+          },
+          {
+            "name": "RDS",
+            "delta_usd": -36.72
+          },
+          {
+            "name": "S3",
+            "delta_usd": -110.31
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 9533.04
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 389.0
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 244.51
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 201.99
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 133.88
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 111.35
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 79.48
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 7.25
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": -53.83
+          }
+        ],
+        "net_delta_usd": 10646.67
+      },
+      "matched_truth": "A01",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "AWS",
+        "account": "aws-dev-sandbox",
+        "service": "EC2"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E02",
+      "start": "2025-03-04",
+      "end": "2025-03-04",
+      "flagged_days": 1,
+      "pattern": "spike",
+      "peak_date": "2025-03-04",
+      "ensemble_score_peak": 4.159,
+      "top_monitor": "Category: networking",
+      "excess_usd": 3798.99,
+      "peak_excess_usd": 3798.99,
+      "excess_pct_of_baseline": 0.0943,
+      "severity": "Medium",
+      "driver": {
+        "provider": "GCP",
+        "account": "gcp-prod-web",
+        "service": "Network Egress",
+        "delta_usd": 3496.95,
+        "share": 0.7808,
+        "category": "networking"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Network Egress",
+            "delta_usd": 3496.95,
+            "share": 0.7808
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "SageMaker Inference",
+            "delta_usd": 147.18,
+            "share": 0.0329
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "EC2",
+            "delta_usd": 116.4,
+            "share": 0.026
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 115.6,
+            "share": 0.0258
+          },
+          {
+            "provider": "Azure",
+            "account": "az-analytics",
+            "service": "Virtual Machines",
+            "delta_usd": 99.56,
+            "share": 0.0222
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "GCP",
+            "delta_usd": 3446.76
+          },
+          {
+            "name": "AWS",
+            "delta_usd": 493.98
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 62.44
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Network Egress",
+            "delta_usd": 3486.72
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 310.27
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 120.83
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 119.42
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 101.79
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 48.68
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 47.64
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 19.11
+          },
+          {
+            "name": "S3",
+            "delta_usd": 12.66
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 11.84
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 5.8
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 5.41
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": -7.39
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": -18.51
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": -23.96
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": -55.96
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": -64.25
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": -116.94
+          }
+        ],
+        "by_account": [
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 3468.06
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 303.83
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 172.46
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 48.57
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 26.79
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 17.69
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 8.63
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": -12.93
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": -29.94
+          }
+        ],
+        "net_delta_usd": 4003.17
+      },
+      "matched_truth": "A02",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "GCP",
+        "account": "gcp-prod-web",
+        "service": "Network Egress"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E03",
+      "start": "2025-03-24",
+      "end": "2025-03-31",
+      "flagged_days": 7,
+      "pattern": "sustained",
+      "peak_date": "2025-03-31",
+      "ensemble_score_peak": 2.006,
+      "top_monitor": "Provider: Azure",
+      "excess_usd": 12980.36,
+      "peak_excess_usd": 2492.8,
+      "excess_pct_of_baseline": 0.047,
+      "severity": "High",
+      "driver": {
+        "provider": "Azure",
+        "account": "az-prod-apps",
+        "service": "Virtual Machines",
+        "delta_usd": 10718.64,
+        "share": 0.7173,
+        "category": "compute"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 10718.64,
+            "share": 0.7173
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "EC2",
+            "delta_usd": 604.85,
+            "share": 0.0405
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Synapse Analytics",
+            "delta_usd": 382.45,
+            "share": 0.0256
+          },
+          {
+            "provider": "Azure",
+            "account": "az-analytics",
+            "service": "Virtual Machines",
+            "delta_usd": 368.46,
+            "share": 0.0247
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Compute Engine",
+            "delta_usd": 259.33,
+            "share": 0.0174
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "Azure",
+            "delta_usd": 11884.95
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 993.38
+          },
+          {
+            "name": "AWS",
+            "delta_usd": 523.44
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 11159.82
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 632.32
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 497.32
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 397.01
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 369.42
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 214.15
+          },
+          {
+            "name": "S3",
+            "delta_usd": 206.19
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 180.38
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 122.75
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 105.57
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 63.31
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 60.87
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 60.58
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 16.56
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": -86.38
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -99.41
+          },
+          {
+            "name": "Athena",
+            "delta_usd": -169.7
+          },
+          {
+            "name": "RDS",
+            "delta_usd": -328.98
+          }
+        ],
+        "by_account": [
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 11279.68
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 616.22
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 486.97
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 392.13
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 355.79
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 145.59
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 118.3
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 22.06
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": -14.97
+          }
+        ],
+        "net_delta_usd": 13401.78
+      },
+      "matched_truth": "A03",
+      "planned_event": null,
+      "truth_type": "level_shift",
+      "truth_driver": {
+        "provider": "Azure",
+        "account": "az-prod-apps",
+        "service": "Virtual Machines"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E04",
+      "start": "2025-04-17",
+      "end": "2025-04-19",
+      "flagged_days": 3,
+      "pattern": "spike",
+      "peak_date": "2025-04-17",
+      "ensemble_score_peak": 4.051,
+      "top_monitor": "Category: analytics",
+      "excess_usd": 8070.63,
+      "peak_excess_usd": 2959.24,
+      "excess_pct_of_baseline": 0.0682,
+      "severity": "Medium",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-data-platform",
+        "service": "Athena",
+        "delta_usd": 9188.61,
+        "share": 0.8024,
+        "category": "analytics"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "Athena",
+            "delta_usd": 9188.61,
+            "share": 0.8024
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "RDS",
+            "delta_usd": 318.68,
+            "share": 0.0278
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Vertex AI Prediction",
+            "delta_usd": 225.98,
+            "share": 0.0197
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "EC2",
+            "delta_usd": 161.67,
+            "share": 0.0141
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Azure SQL Database",
+            "delta_usd": 127.58,
+            "share": 0.0111
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 9834.73
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 244.32
+          },
+          {
+            "name": "Azure",
+            "delta_usd": -1457.88
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Athena",
+            "delta_usd": 9036.58
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 433.12
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 323.97
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 233.72
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 182.14
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 156.45
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 143.51
+          },
+          {
+            "name": "S3",
+            "delta_usd": 100.85
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 85.13
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 65.47
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 55.95
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 32.3
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 31.76
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": -27.69
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -73.34
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": -91.54
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": -145.39
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": -1921.82
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 9268.49
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 390.73
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 299.5
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 269.67
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 175.51
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": -6.39
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": -17.05
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": -48.79
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": -1710.49
+          }
+        ],
+        "net_delta_usd": 8621.17
+      },
+      "matched_truth": "A04",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "AWS",
+        "account": "aws-data-platform",
+        "service": "Athena"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E05",
+      "start": "2025-05-07",
+      "end": "2025-05-20",
+      "flagged_days": 14,
+      "pattern": "sustained",
+      "peak_date": "2025-05-18",
+      "ensemble_score_peak": 3.133,
+      "top_monitor": "Category: storage",
+      "excess_usd": 15015.88,
+      "peak_excess_usd": 2481.54,
+      "excess_pct_of_baseline": 0.0269,
+      "severity": "High",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "S3",
+        "delta_usd": 12924.85,
+        "share": 0.6989,
+        "category": "storage"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "S3",
+            "delta_usd": 12924.85,
+            "share": 0.6989
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "SageMaker Inference",
+            "delta_usd": 1193.51,
+            "share": 0.0645
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 776.86,
+            "share": 0.042
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 751.88,
+            "share": 0.0407
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "Athena",
+            "delta_usd": 294.27,
+            "share": 0.0159
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 15367.24
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 940.39
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 519.32
+          }
+        ],
+        "by_service": [
+          {
+            "name": "S3",
+            "delta_usd": 13055.92
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 1311.18
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 1058.34
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 973.97
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 414.39
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 316.57
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 238.66
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 206.39
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 194.64
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 163.86
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 159.02
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 132.53
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -76.87
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": -121.5
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": -151.39
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": -174.13
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": -340.84
+          },
+          {
+            "name": "RDS",
+            "delta_usd": -533.79
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 14873.72
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 540.84
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 430.28
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 290.7
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 276.78
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 233.32
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 174.22
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 54.4
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": -47.32
+          }
+        ],
+        "net_delta_usd": 16826.95
+      },
+      "matched_truth": "A05",
+      "planned_event": null,
+      "truth_type": "slow_leak",
+      "truth_driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "S3"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E06",
+      "start": "2025-05-24",
+      "end": "2025-05-25",
+      "flagged_days": 2,
+      "pattern": "spike",
+      "peak_date": "2025-05-25",
+      "ensemble_score_peak": 2.291,
+      "top_monitor": "Category: storage",
+      "excess_usd": 3284.93,
+      "peak_excess_usd": 1683.54,
+      "excess_pct_of_baseline": 0.046,
+      "severity": "Medium",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "S3",
+        "delta_usd": 2681.78,
+        "share": 0.8249,
+        "category": "storage"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "S3",
+            "delta_usd": 2681.78,
+            "share": 0.8249
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Bandwidth",
+            "delta_usd": 82.93,
+            "share": 0.0255
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Synapse Analytics",
+            "delta_usd": 82.47,
+            "share": 0.0254
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Cloud SQL",
+            "delta_usd": 57.93,
+            "share": 0.0178
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Azure OpenAI",
+            "delta_usd": 56.86,
+            "share": 0.0175
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 2393.82
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 142.61
+          },
+          {
+            "name": "GCP",
+            "delta_usd": -250.67
+          }
+        ],
+        "by_service": [
+          {
+            "name": "S3",
+            "delta_usd": 2667.74
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 89.79
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 85.51
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 72.86
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 69.26
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 55.63
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 28.88
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": -1.69
+          },
+          {
+            "name": "RDS",
+            "delta_usd": -17.17
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": -26.41
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": -35.72
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": -37.5
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": -38.89
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": -66.15
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": -108.02
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": -110.39
+          },
+          {
+            "name": "EC2",
+            "delta_usd": -164.49
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": -177.47
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 2433.99
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 163.98
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": -4.64
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": -8.94
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": -16.73
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": -31.23
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": -41.19
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": -86.51
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": -122.97
+          }
+        ],
+        "net_delta_usd": 2285.77
+      },
+      "matched_truth": "A05",
+      "planned_event": null,
+      "truth_type": "slow_leak",
+      "truth_driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "S3"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E07",
+      "start": "2025-06-10",
+      "end": "2025-06-11",
+      "flagged_days": 2,
+      "pattern": "spike",
+      "peak_date": "2025-06-10",
+      "ensemble_score_peak": 3.152,
+      "top_monitor": "Provider: GCP",
+      "excess_usd": 6176.93,
+      "peak_excess_usd": 3137.41,
+      "excess_pct_of_baseline": 0.0726,
+      "severity": "Medium",
+      "driver": {
+        "provider": "GCP",
+        "account": "gcp-ml-research",
+        "service": "Vertex AI Prediction",
+        "delta_usd": 5631.33,
+        "share": 0.7059,
+        "category": "ai_ml"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "GCP",
+            "account": "gcp-ml-research",
+            "service": "Vertex AI Prediction",
+            "delta_usd": 5631.33,
+            "share": 0.7059
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 476.76,
+            "share": 0.0598
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "EC2",
+            "delta_usd": 390.87,
+            "share": 0.049
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 288.04,
+            "share": 0.0361
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Compute Engine",
+            "delta_usd": 246.04,
+            "share": 0.0308
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "GCP",
+            "delta_usd": 6131.75
+          },
+          {
+            "name": "AWS",
+            "delta_usd": 886.35
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 262.21
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 5661.56
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 725.85
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 315.11
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 272.81
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 153.21
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 98.93
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 94.2
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 94.0
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 60.31
+          },
+          {
+            "name": "S3",
+            "delta_usd": 47.79
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 43.57
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 40.89
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": -22.14
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": -40.12
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": -48.12
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": -48.6
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": -78.12
+          },
+          {
+            "name": "Athena",
+            "delta_usd": -90.83
+          }
+        ],
+        "by_account": [
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 5783.29
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 527.99
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 395.9
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 337.83
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 315.63
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 10.62
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": -22.06
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": -31.36
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": -37.54
+          }
+        ],
+        "net_delta_usd": 7280.3
+      },
+      "matched_truth": "A06",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "GCP",
+        "account": "gcp-ml-research",
+        "service": "Vertex AI Prediction"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E08",
+      "start": "2025-06-24",
+      "end": "2025-06-24",
+      "flagged_days": 1,
+      "pattern": "spike",
+      "peak_date": "2025-06-24",
+      "ensemble_score_peak": 1.657,
+      "top_monitor": "Category: database",
+      "excess_usd": 3739.96,
+      "peak_excess_usd": 3739.96,
+      "excess_pct_of_baseline": 0.0874,
+      "severity": "Medium",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "EC2",
+        "delta_usd": 1443.19,
+        "share": 0.324,
+        "category": "compute"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 1443.19,
+            "share": 0.324
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 941.9,
+            "share": 0.2114
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Compute Engine",
+            "delta_usd": 495.61,
+            "share": 0.1113
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "RDS",
+            "delta_usd": 464.83,
+            "share": 0.1043
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Azure SQL Database",
+            "delta_usd": 312.28,
+            "share": 0.0701
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 1865.62
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 1395.2
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 735.34
+          }
+        ],
+        "by_service": [
+          {
+            "name": "EC2",
+            "delta_usd": 1384.9
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 934.82
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 523.19
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 511.42
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 303.1
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 270.83
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 61.71
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 60.93
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 46.78
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 45.14
+          },
+          {
+            "name": "S3",
+            "delta_usd": 42.31
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 41.32
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 37.96
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 16.88
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 9.88
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": -29.28
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": -84.24
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": -181.52
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 1865.36
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 1354.03
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 769.7
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 50.72
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 35.26
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 23.58
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 5.91
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": -23.32
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": -85.08
+          }
+        ],
+        "net_delta_usd": 3996.16
+      },
+      "matched_truth": null,
+      "planned_event": "P01"
+    },
+    {
+      "event_id": "E09",
+      "start": "2025-07-08",
+      "end": "2025-07-15",
+      "flagged_days": 7,
+      "pattern": "sustained",
+      "peak_date": "2025-07-14",
+      "ensemble_score_peak": 1.654,
+      "top_monitor": "Category: database",
+      "excess_usd": 11001.25,
+      "peak_excess_usd": 1943.59,
+      "excess_pct_of_baseline": 0.0374,
+      "severity": "High",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "RDS",
+        "delta_usd": 8756.31,
+        "share": 0.6639,
+        "category": "database"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "RDS",
+            "delta_usd": 8756.31,
+            "share": 0.6639
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 831.49,
+            "share": 0.063
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "SageMaker Inference",
+            "delta_usd": 673.76,
+            "share": 0.0511
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "SageMaker Inference",
+            "delta_usd": 295.42,
+            "share": 0.0224
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "Athena",
+            "delta_usd": 252.12,
+            "share": 0.0191
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 9740.18
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 1820.54
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 97.37
+          }
+        ],
+        "by_service": [
+          {
+            "name": "RDS",
+            "delta_usd": 8845.45
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 1055.61
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 947.63
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 403.62
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 190.08
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 162.2
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 159.1
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 69.97
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 62.38
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 59.98
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 57.85
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 57.74
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": -33.5
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": -40.32
+          },
+          {
+            "name": "Athena",
+            "delta_usd": -52.54
+          },
+          {
+            "name": "S3",
+            "delta_usd": -61.46
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": -108.84
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": -116.85
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 8928.45
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 1528.37
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 435.42
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 376.31
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 227.33
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 153.43
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 138.74
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 92.87
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": -222.83
+          }
+        ],
+        "net_delta_usd": 11658.09
+      },
+      "matched_truth": "A07",
+      "planned_event": null,
+      "truth_type": "level_shift",
+      "truth_driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "RDS"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E10",
+      "start": "2025-08-05",
+      "end": "2025-08-05",
+      "flagged_days": 1,
+      "pattern": "spike",
+      "peak_date": "2025-08-05",
+      "ensemble_score_peak": 3.485,
+      "top_monitor": "Category: analytics",
+      "excess_usd": 3106.89,
+      "peak_excess_usd": 3106.89,
+      "excess_pct_of_baseline": 0.0699,
+      "severity": "Medium",
+      "driver": {
+        "provider": "Azure",
+        "account": "az-analytics",
+        "service": "Synapse Analytics",
+        "delta_usd": 3252.18,
+        "share": 0.72,
+        "category": "analytics"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "Azure",
+            "account": "az-analytics",
+            "service": "Synapse Analytics",
+            "delta_usd": 3252.18,
+            "share": 0.72
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 274.22,
+            "share": 0.0607
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "Athena",
+            "delta_usd": 171.71,
+            "share": 0.038
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 170.67,
+            "share": 0.0378
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Azure OpenAI",
+            "delta_usd": 79.99,
+            "share": 0.0177
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "Azure",
+            "delta_usd": 3587.57
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 211.06
+          },
+          {
+            "name": "AWS",
+            "delta_usd": -1007.5
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 3254.39
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 262.28
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 174.81
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 65.55
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 62.52
+          },
+          {
+            "name": "S3",
+            "delta_usd": 60.44
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 56.1
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 55.62
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 41.84
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 37.57
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 28.44
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 25.8
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 15.41
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 14.7
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 14.38
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": -12.71
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -13.86
+          },
+          {
+            "name": "RDS",
+            "delta_usd": -1352.15
+          }
+        ],
+        "by_account": [
+          {
+            "name": "az-analytics",
+            "delta_usd": 3239.17
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 359.48
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 155.06
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 78.4
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 26.88
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": -11.08
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": -22.4
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": -171.34
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": -863.04
+          }
+        ],
+        "net_delta_usd": 2791.14
+      },
+      "matched_truth": "A08",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "Azure",
+        "account": "az-analytics",
+        "service": "Synapse Analytics"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E11",
+      "start": "2025-09-07",
+      "end": "2025-09-07",
+      "flagged_days": 1,
+      "pattern": "spike",
+      "peak_date": "2025-09-07",
+      "ensemble_score_peak": 1.194,
+      "top_monitor": "Provider: GCP",
+      "excess_usd": 1439.77,
+      "peak_excess_usd": 1439.77,
+      "excess_pct_of_baseline": 0.0387,
+      "severity": "Low",
+      "driver": {
+        "provider": "GCP",
+        "account": "gcp-prod-web",
+        "service": "Compute Engine",
+        "delta_usd": 1062.55,
+        "share": 0.6428,
+        "category": "compute"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Compute Engine",
+            "delta_usd": 1062.55,
+            "share": 0.6428
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 164.93,
+            "share": 0.0998
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Vertex AI Prediction",
+            "delta_usd": 48.2,
+            "share": 0.0292
+          },
+          {
+            "provider": "Azure",
+            "account": "az-analytics",
+            "service": "Synapse Analytics",
+            "delta_usd": 43.49,
+            "share": 0.0263
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "RDS",
+            "delta_usd": 41.35,
+            "share": 0.025
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "GCP",
+            "delta_usd": 1175.81
+          },
+          {
+            "name": "AWS",
+            "delta_usd": 96.67
+          },
+          {
+            "name": "Azure",
+            "delta_usd": -138.55
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Compute Engine",
+            "delta_usd": 1102.48
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 114.61
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 68.65
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 34.14
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 32.63
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 20.78
+          },
+          {
+            "name": "S3",
+            "delta_usd": 20.76
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 17.07
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 15.41
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 15.2
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 6.24
+          },
+          {
+            "name": "RDS",
+            "delta_usd": -11.32
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -16.65
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": -25.97
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": -37.12
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": -50.89
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": -59.86
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": -112.22
+          }
+        ],
+        "by_account": [
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 1081.73
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 148.66
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 59.1
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 34.98
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 33.0
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 20.45
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 19.26
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": -71.26
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": -192.0
+          }
+        ],
+        "net_delta_usd": 1133.93
+      },
+      "matched_truth": "A09",
+      "planned_event": null,
+      "truth_type": "slow_leak",
+      "truth_driver": {
+        "provider": "GCP",
+        "account": "gcp-prod-web",
+        "service": "Compute Engine"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E12",
+      "start": "2025-09-23",
+      "end": "2025-09-24",
+      "flagged_days": 2,
+      "pattern": "spike",
+      "peak_date": "2025-09-23",
+      "ensemble_score_peak": 3.162,
+      "top_monitor": "Category: ai_ml",
+      "excess_usd": 6011.05,
+      "peak_excess_usd": 3058.79,
+      "excess_pct_of_baseline": 0.0663,
+      "severity": "Medium",
+      "driver": {
+        "provider": "Azure",
+        "account": "az-prod-apps",
+        "service": "Azure OpenAI",
+        "delta_usd": 6573.39,
+        "share": 0.7992,
+        "category": "ai_ml"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Azure OpenAI",
+            "delta_usd": 6573.39,
+            "share": 0.7992
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 236.53,
+            "share": 0.0288
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "EC2",
+            "delta_usd": 172.55,
+            "share": 0.021
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "Data Transfer",
+            "delta_usd": 147.89,
+            "share": 0.018
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "SageMaker Inference",
+            "delta_usd": 140.85,
+            "share": 0.0171
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "Azure",
+            "delta_usd": 6720.13
+          },
+          {
+            "name": "AWS",
+            "delta_usd": 783.6
+          },
+          {
+            "name": "GCP",
+            "delta_usd": -119.72
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 6554.97
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 391.55
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 223.24
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 149.91
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 97.73
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 70.92
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 43.25
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 40.11
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 37.37
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 36.59
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 28.92
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": 11.69
+          },
+          {
+            "name": "S3",
+            "delta_usd": 7.91
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 5.93
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 1.81
+          },
+          {
+            "name": "Athena",
+            "delta_usd": -32.25
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": -52.55
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": -233.08
+          }
+        ],
+        "by_account": [
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 6739.91
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 523.32
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 237.05
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 135.22
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 127.44
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 46.1
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 23.23
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": -155.0
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": -293.26
+          }
+        ],
+        "net_delta_usd": 7384.0
+      },
+      "matched_truth": "A10",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "Azure",
+        "account": "az-prod-apps",
+        "service": "Azure OpenAI"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E13",
+      "start": "2025-10-30",
+      "end": "2025-10-30",
+      "flagged_days": 1,
+      "pattern": "spike",
+      "peak_date": "2025-10-30",
+      "ensemble_score_peak": 1.988,
+      "top_monitor": "Provider: Azure",
+      "excess_usd": 2311.92,
+      "peak_excess_usd": 2311.92,
+      "excess_pct_of_baseline": 0.0475,
+      "severity": "Low",
+      "driver": {
+        "provider": "Azure",
+        "account": "az-dev-test",
+        "service": "Virtual Machines",
+        "delta_usd": 1117.47,
+        "share": 0.3867,
+        "category": "compute"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "Azure",
+            "account": "az-dev-test",
+            "service": "Virtual Machines",
+            "delta_usd": 1117.47,
+            "share": 0.3867
+          },
+          {
+            "provider": "Azure",
+            "account": "az-prod-apps",
+            "service": "Virtual Machines",
+            "delta_usd": 426.88,
+            "share": 0.1477
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "EC2",
+            "delta_usd": 180.59,
+            "share": 0.0625
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "Athena",
+            "delta_usd": 153.26,
+            "share": 0.053
+          },
+          {
+            "provider": "Azure",
+            "account": "az-analytics",
+            "service": "Virtual Machines",
+            "delta_usd": 136.72,
+            "share": 0.0473
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "Azure",
+            "delta_usd": 1664.19
+          },
+          {
+            "name": "AWS",
+            "delta_usd": 506.94
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 197.03
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 1681.06
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 198.13
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 161.45
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 132.87
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 124.86
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 102.81
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 70.76
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 43.5
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 42.32
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 15.57
+          },
+          {
+            "name": "S3",
+            "delta_usd": 6.55
+          },
+          {
+            "name": "Data Transfer",
+            "delta_usd": 3.83
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": -18.36
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": -18.74
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": -30.56
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": -38.97
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": -44.98
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": -63.96
+          }
+        ],
+        "by_account": [
+          {
+            "name": "az-dev-test",
+            "delta_usd": 1153.85
+          },
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 279.39
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": 275.92
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 239.63
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 234.43
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 171.2
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 55.5
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": -12.08
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": -29.67
+          }
+        ],
+        "net_delta_usd": 2368.15
+      },
+      "matched_truth": "A11",
+      "planned_event": null,
+      "truth_type": "level_shift",
+      "truth_driver": {
+        "provider": "Azure",
+        "account": "az-dev-test",
+        "service": "Virtual Machines"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    },
+    {
+      "event_id": "E14",
+      "start": "2025-11-18",
+      "end": "2025-11-20",
+      "flagged_days": 3,
+      "pattern": "spike",
+      "peak_date": "2025-11-19",
+      "ensemble_score_peak": 3.839,
+      "top_monitor": "Category: networking",
+      "excess_usd": 9437.31,
+      "peak_excess_usd": 3327.21,
+      "excess_pct_of_baseline": 0.0678,
+      "severity": "Medium",
+      "driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "Data Transfer",
+        "delta_usd": 7718.51,
+        "share": 0.7239,
+        "category": "networking"
+      },
+      "attribution": {
+        "contributors": [
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "Data Transfer",
+            "delta_usd": 7718.51,
+            "share": 0.7239
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-prod-core",
+            "service": "EC2",
+            "delta_usd": 698.12,
+            "share": 0.0655
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-ml-research",
+            "service": "Vertex AI Prediction",
+            "delta_usd": 259.22,
+            "share": 0.0243
+          },
+          {
+            "provider": "AWS",
+            "account": "aws-data-platform",
+            "service": "Athena",
+            "delta_usd": 241.07,
+            "share": 0.0226
+          },
+          {
+            "provider": "GCP",
+            "account": "gcp-prod-web",
+            "service": "Compute Engine",
+            "delta_usd": 180.31,
+            "share": 0.0169
+          }
+        ],
+        "by_provider": [
+          {
+            "name": "AWS",
+            "delta_usd": 8780.8
+          },
+          {
+            "name": "GCP",
+            "delta_usd": 949.96
+          },
+          {
+            "name": "Azure",
+            "delta_usd": 473.33
+          }
+        ],
+        "by_service": [
+          {
+            "name": "Data Transfer",
+            "delta_usd": 7804.28
+          },
+          {
+            "name": "EC2",
+            "delta_usd": 572.78
+          },
+          {
+            "name": "Vertex AI Prediction",
+            "delta_usd": 460.15
+          },
+          {
+            "name": "Athena",
+            "delta_usd": 198.6
+          },
+          {
+            "name": "Azure OpenAI",
+            "delta_usd": 197.4
+          },
+          {
+            "name": "Compute Engine",
+            "delta_usd": 177.48
+          },
+          {
+            "name": "Cloud SQL",
+            "delta_usd": 160.07
+          },
+          {
+            "name": "Synapse Analytics",
+            "delta_usd": 121.51
+          },
+          {
+            "name": "RDS",
+            "delta_usd": 114.22
+          },
+          {
+            "name": "Bandwidth",
+            "delta_usd": 106.19
+          },
+          {
+            "name": "Network Egress",
+            "delta_usd": 87.95
+          },
+          {
+            "name": "SageMaker Inference",
+            "delta_usd": 59.35
+          },
+          {
+            "name": "Blob Storage",
+            "delta_usd": 51.13
+          },
+          {
+            "name": "Cloud Storage",
+            "delta_usd": 43.54
+          },
+          {
+            "name": "S3",
+            "delta_usd": 31.57
+          },
+          {
+            "name": "BigQuery",
+            "delta_usd": 20.77
+          },
+          {
+            "name": "Virtual Machines",
+            "delta_usd": 18.46
+          },
+          {
+            "name": "Azure SQL Database",
+            "delta_usd": -21.35
+          }
+        ],
+        "by_account": [
+          {
+            "name": "aws-prod-core",
+            "delta_usd": 8568.27
+          },
+          {
+            "name": "gcp-prod-web",
+            "delta_usd": 488.96
+          },
+          {
+            "name": "az-analytics",
+            "delta_usd": 365.22
+          },
+          {
+            "name": "gcp-ml-research",
+            "delta_usd": 261.88
+          },
+          {
+            "name": "gcp-sandbox",
+            "delta_usd": 199.13
+          },
+          {
+            "name": "aws-data-platform",
+            "delta_usd": 180.25
+          },
+          {
+            "name": "az-dev-test",
+            "delta_usd": 119.28
+          },
+          {
+            "name": "aws-dev-sandbox",
+            "delta_usd": 32.28
+          },
+          {
+            "name": "az-prod-apps",
+            "delta_usd": -11.17
+          }
+        ],
+        "net_delta_usd": 10204.09
+      },
+      "matched_truth": "A12",
+      "planned_event": null,
+      "truth_type": "spike",
+      "truth_driver": {
+        "provider": "AWS",
+        "account": "aws-prod-core",
+        "service": "Data Transfer"
+      },
+      "attribution_correct": true,
+      "truth_in_top3": true
+    }
+  ],
+  "robustness": {
+    "seeds": [
+      3,
+      7,
+      11,
+      99
+    ],
+    "per_seed": {
+      "3": {
+        "rolling_mad": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.75
+        },
+        "seasonal_residual": {
+          "precision": 0.8125,
+          "recall": 1.0,
+          "f1": 0.8966
+        },
+        "isolation_forest": {
+          "precision": 0.9231,
+          "recall": 0.9167,
+          "f1": 0.9199
+        },
+        "ensemble": {
+          "precision": 0.9333,
+          "recall": 1.0,
+          "f1": 0.9655
+        }
+      },
+      "7": {
+        "rolling_mad": {
+          "precision": 0.6087,
+          "recall": 1.0,
+          "f1": 0.7568
+        },
+        "seasonal_residual": {
+          "precision": 0.8667,
+          "recall": 1.0,
+          "f1": 0.9286
+        },
+        "isolation_forest": {
+          "precision": 0.9286,
+          "recall": 0.9167,
+          "f1": 0.9226
+        },
+        "ensemble": {
+          "precision": 0.9286,
+          "recall": 0.9167,
+          "f1": 0.9226
+        }
+      },
+      "11": {
+        "rolling_mad": {
+          "precision": 0.6522,
+          "recall": 1.0,
+          "f1": 0.7895
+        },
+        "seasonal_residual": {
+          "precision": 0.8125,
+          "recall": 1.0,
+          "f1": 0.8966
+        },
+        "isolation_forest": {
+          "precision": 0.9231,
+          "recall": 0.9167,
+          "f1": 0.9199
+        },
+        "ensemble": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1": 0.9333
+        }
+      },
+      "99": {
+        "rolling_mad": {
+          "precision": 0.6522,
+          "recall": 1.0,
+          "f1": 0.7895
+        },
+        "seasonal_residual": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1": 0.9333
+        },
+        "isolation_forest": {
+          "precision": 0.9286,
+          "recall": 0.9167,
+          "f1": 0.9226
+        },
+        "ensemble": {
+          "precision": 0.9286,
+          "recall": 0.9167,
+          "f1": 0.9226
+        }
+      }
+    },
+    "mean_f1": {
+      "rolling_mad": 0.7714,
+      "seasonal_residual": 0.9138,
+      "isolation_forest": 0.9213,
+      "ensemble": 0.936
+    }
+  }
+}

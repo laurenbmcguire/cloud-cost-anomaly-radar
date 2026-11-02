@@ -1,0 +1,51 @@
+# AI PM input: risk register. probability and impact are 1-5; score = probability x impact.
+risks:
+  - id: R1
+    risk: Alert fatigue from false positives erodes trust in alerts
+    probability: 4
+    impact: 4
+    owner: Lauren
+    mitigation: 2-of-3 detector vote, dollar severity tiers, planned-event suppression (B17) before Slack goes live
+    status: open
+  - id: R2
+    risk: Billing data latency (24-72h) and late restatements delay or distort detection
+    probability: 4
+    impact: 3
+    owner: AI PM
+    mitigation: Score only finalised days, re-run on restated data, alert only on upward moves
+    status: open
+  - id: R3
+    risk: Poor tag hygiene limits attribution below the account/service level
+    probability: 3
+    impact: 4
+    owner: Lauren
+    mitigation: Attribute on account and service first (no tags needed); add a tag-coverage KPI before team-level rollups
+    status: open
+  - id: R4
+    risk: Synthetic data overstates real-world detection accuracy
+    probability: 4
+    impact: 3
+    owner: Lauren
+    mitigation: Multi-seed robustness check, results labelled as synthetic, validate on a FOCUS-format export before any claim
+    status: open
+  - id: R5
+    risk: Seasonal baseline breaks on structural changes (migrations, commitment purchases)
+    probability: 3
+    impact: 3
+    owner: AI PM
+    mitigation: Trailing-median level adapts in about two weeks; add change-point reset in the forecast milestone
+    status: open
+  - id: R6
+    risk: Credits, refunds and amortised commitments distort daily cost
+    probability: 2
+    impact: 3
+    owner: Lauren
+    mitigation: Use amortised net cost and exclude credit line items when real exports are loaded
+    status: open
+  - id: R7
+    risk: LLM executive summary drifts from computed facts
+    probability: 2
+    impact: 2
+    owner: AI PM
+    mitigation: Facts-only prompt, word-count guard and deterministic fallback; LLM is optional
+    status: open

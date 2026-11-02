@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "costradar"
+version = "0.1.0"
+description = "Cloud Cost Anomaly Radar: detect, explain and size spend spikes in multi-cloud billing data."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lauren McGuire" }]
+requires-python = ">=3.10"
+keywords = ["finops", "anomaly-detection", "cloud-cost", "isolation-forest", "data-science"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "matplotlib>=3.6",
+    "scikit-learn>=1.2",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+costradar = "costradar.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/laurenbmcguire/cloud-cost-anomaly-radar"
+Author = "https://laurenmcguireresume.com"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

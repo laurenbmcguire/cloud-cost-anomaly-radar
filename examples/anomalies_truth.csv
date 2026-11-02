@@ -1,0 +1,13 @@
+anomaly_id,type,provider,account,service,category,start_date,end_date,duration_days,magnitude_pct,injected_excess_usd,description
+A01,spike,AWS,aws-dev-sandbox,EC2,compute,2025-02-11,2025-02-12,2,400.0,9339.19,GPU instance fleet left running in the sandbox account
+A02,spike,GCP,gcp-prod-web,Network Egress,networking,2025-03-04,2025-03-04,1,900.0,3470.08,CDN cache-miss storm drives internet egress
+A03,level_shift,Azure,az-prod-apps,Virtual Machines,compute,2025-03-24,2025-04-06,14,45.0,20219.35,VM scale-set minimum capacity raised and not reverted
+A04,spike,AWS,aws-data-platform,Athena,analytics,2025-04-17,2025-04-19,3,500.0,9218.18,Unpartitioned Athena query running in a retry loop
+A05,slow_leak,AWS,aws-prod-core,S3,storage,2025-05-06,2025-05-25,20,150.0,25396.44,S3 lifecycle rule disabled; object versions accumulate
+A06,spike,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,2025-06-10,2025-06-11,2,400.0,5664.19,Vertex AI endpoint autoscaled to max replicas
+A07,level_shift,AWS,aws-prod-core,RDS,database,2025-07-08,2025-07-28,21,60.0,26416.96,RDS moved to provisioned IOPS without rightsizing
+A08,spike,Azure,az-analytics,Synapse Analytics,analytics,2025-08-05,2025-08-05,1,700.0,3237.86,Synapse dedicated pool resumed for an ad-hoc backfill
+A09,slow_leak,GCP,gcp-prod-web,Compute Engine,compute,2025-08-25,2025-09-11,18,90.0,15123.08,GKE node-pool autoscaler fails to scale down
+A10,spike,Azure,az-prod-apps,Azure OpenAI,ai_ml,2025-09-23,2025-09-24,2,300.0,6427.7,Azure OpenAI prompt retry storm after a client bug
+A11,level_shift,Azure,az-dev-test,Virtual Machines,compute,2025-10-21,2025-10-30,10,150.0,9975.69,Dev/test VMs excluded from the nightly shutdown schedule
+A12,spike,AWS,aws-prod-core,Data Transfer,networking,2025-11-18,2025-11-20,3,350.0,7724.51,NAT gateway cross-AZ traffic surge after a deploy

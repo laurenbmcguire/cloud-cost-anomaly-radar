@@ -1,0 +1,56 @@
+# AI PM input: milestones and backlog for Cloud Cost Anomaly Radar.
+# status: done | in_progress | planned      backlog status: todo | doing | done
+project: Cloud Cost Anomaly Radar
+
+milestones:
+  - id: M1
+    name: Synthetic multi-cloud billing generator
+    due: 2026-10-19
+    status: done
+    done_criteria: 365 days x 54 series with trend, weekly and month-end seasonality, noise, 12 labelled anomalies saved with ground truth
+  - id: M2
+    name: Detector ensemble and evaluation
+    due: 2026-10-26
+    status: done
+    done_criteria: Rolling MAD, seasonal residual and Isolation Forest detectors; event-level precision/recall/F1 with +/-2 day tolerance
+  - id: M3
+    name: Root-cause attribution and savings estimate
+    due: 2026-10-30
+    status: done
+    done_criteria: Each flagged event ranked by provider/account/service delta vs baseline, with dollar excess
+  - id: M4
+    name: FinOps report, charts and AI PM
+    due: 2026-11-02
+    status: done
+    done_criteria: reports/finops_report.md, reports/summary.json, four brand charts, weekly AI PM workflow
+  - id: M5
+    name: Cost-forecast extension
+    due: 2026-12-14
+    status: planned
+    done_criteria: 30-day spend forecast per provider with backtested MAPE and a budget-breach early warning
+  - id: M6
+    name: Slack alert integration
+    due: 2027-01-25
+    status: planned
+    done_criteria: Anomaly alerts posted to Slack with driver, excess and runbook link; planned events suppressed
+
+backlog:
+  - {id: B01, title: Seeded billing generator with labelled anomalies, priority: P0, status: done, owner: Lauren, depends_on: [], milestone: M1}
+  - {id: B02, title: Planned-event calendar in the generator, priority: P2, status: done, owner: AI PM, depends_on: [B01], milestone: M1}
+  - {id: B03, title: Rolling median + MAD detector, priority: P1, status: done, owner: Lauren, depends_on: [B01], milestone: M2}
+  - {id: B04, title: Seasonal residual detector, priority: P0, status: done, owner: Lauren, depends_on: [B01], milestone: M2}
+  - {id: B05, title: Isolation Forest on engineered features, priority: P1, status: done, owner: Lauren, depends_on: [B04], milestone: M2}
+  - {id: B06, title: Event-level evaluation with +/-2 day tolerance, priority: P0, status: done, owner: AI PM, depends_on: [B03, B04, B05], milestone: M2}
+  - {id: B07, title: Per-series attribution with provider/service/account rollups, priority: P0, status: done, owner: Lauren, depends_on: [B04], milestone: M3}
+  - {id: B08, title: Excess-over-baseline savings estimate, priority: P1, status: done, owner: Lauren, depends_on: [B07], milestone: M3}
+  - {id: B09, title: Markdown FinOps report and summary.json, priority: P1, status: done, owner: AI PM, depends_on: [B06, B08], milestone: M4}
+  - {id: B10, title: Brand charts for README and report, priority: P2, status: done, owner: AI PM, depends_on: [B09], milestone: M4}
+  - {id: B11, title: Weekly AI PM status workflow, priority: P1, status: done, owner: AI PM, depends_on: [B09], milestone: M4}
+  - {id: B12, title: Seasonal-naive and Holt-Winters 30-day forecast baseline, priority: P1, status: todo, owner: Lauren, depends_on: [B04], milestone: M5}
+  - {id: B13, title: Forecast backtest with MAPE by provider, priority: P1, status: todo, owner: AI PM, depends_on: [B12], milestone: M5}
+  - {id: B14, title: Budget-breach early warning from the forecast, priority: P2, status: todo, owner: Lauren, depends_on: [B12, B13], milestone: M5}
+  - {id: B15, title: "Alert payload schema (event, driver, excess, runbook link)", priority: P1, status: todo, owner: AI PM, depends_on: [B07, B08], milestone: M6}
+  - {id: B16, title: Slack incoming-webhook notifier with dry-run mode, priority: P2, status: todo, owner: Lauren, depends_on: [B15], milestone: M6}
+  - {id: B17, title: Change-calendar suppression for planned events, priority: P1, status: todo, owner: Lauren, depends_on: [B02, B06], milestone: M6}
+  - {id: B18, title: Per-account alert thresholds and severity routing, priority: P2, status: todo, owner: AI PM, depends_on: [B15, B17], milestone: M6}
+  - {id: B19, title: FOCUS-format billing export loader, priority: P3, status: todo, owner: Lauren, depends_on: []}

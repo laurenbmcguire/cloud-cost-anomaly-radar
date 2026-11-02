@@ -1,0 +1,3 @@
+event_id,start_date,end_date,categories,account_kinds,uplift_pct,description
+P01,2025-06-24,2025-06-24,compute+database,prod,25.0,Quarterly disaster-recovery failover test
+P02,2025-11-26,2025-12-02,compute+networking,prod,15.0,Holiday-season traffic scale-up (approved capacity plan)

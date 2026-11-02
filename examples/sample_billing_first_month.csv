@@ -1,0 +1,1675 @@
+date,provider,account,service,category,cost_usd
+2025-01-01,AWS,aws-prod-core,EC2,compute,4663.29
+2025-01-02,AWS,aws-prod-core,EC2,compute,4737.47
+2025-01-03,AWS,aws-prod-core,EC2,compute,4375.2
+2025-01-04,AWS,aws-prod-core,EC2,compute,3988.74
+2025-01-05,AWS,aws-prod-core,EC2,compute,4125.02
+2025-01-06,AWS,aws-prod-core,EC2,compute,4451.23
+2025-01-07,AWS,aws-prod-core,EC2,compute,4500.69
+2025-01-08,AWS,aws-prod-core,EC2,compute,4413.24
+2025-01-09,AWS,aws-prod-core,EC2,compute,4606.72
+2025-01-10,AWS,aws-prod-core,EC2,compute,4693.09
+2025-01-11,AWS,aws-prod-core,EC2,compute,4312.15
+2025-01-12,AWS,aws-prod-core,EC2,compute,4427.19
+2025-01-13,AWS,aws-prod-core,EC2,compute,4728.96
+2025-01-14,AWS,aws-prod-core,EC2,compute,4528.43
+2025-01-15,AWS,aws-prod-core,EC2,compute,4600.38
+2025-01-16,AWS,aws-prod-core,EC2,compute,4454.79
+2025-01-17,AWS,aws-prod-core,EC2,compute,4635.74
+2025-01-18,AWS,aws-prod-core,EC2,compute,4276.76
+2025-01-19,AWS,aws-prod-core,EC2,compute,4243.1
+2025-01-20,AWS,aws-prod-core,EC2,compute,4477.57
+2025-01-21,AWS,aws-prod-core,EC2,compute,4700.12
+2025-01-22,AWS,aws-prod-core,EC2,compute,4619.58
+2025-01-23,AWS,aws-prod-core,EC2,compute,4542.9
+2025-01-24,AWS,aws-prod-core,EC2,compute,4516.37
+2025-01-25,AWS,aws-prod-core,EC2,compute,4302.61
+2025-01-26,AWS,aws-prod-core,EC2,compute,4333.64
+2025-01-27,AWS,aws-prod-core,EC2,compute,4684.26
+2025-01-28,AWS,aws-prod-core,EC2,compute,4700.05
+2025-01-29,AWS,aws-prod-core,EC2,compute,4959.56
+2025-01-30,AWS,aws-prod-core,EC2,compute,4999.94
+2025-01-31,AWS,aws-prod-core,EC2,compute,4861.47
+2025-01-01,AWS,aws-prod-core,S3,storage,1488.67
+2025-01-02,AWS,aws-prod-core,S3,storage,1480.57
+2025-01-03,AWS,aws-prod-core,S3,storage,1502.58
+2025-01-04,AWS,aws-prod-core,S3,storage,1505.0
+2025-01-05,AWS,aws-prod-core,S3,storage,1506.47
+2025-01-06,AWS,aws-prod-core,S3,storage,1502.13
+2025-01-07,AWS,aws-prod-core,S3,storage,1535.49
+2025-01-08,AWS,aws-prod-core,S3,storage,1502.74
+2025-01-09,AWS,aws-prod-core,S3,storage,1452.84
+2025-01-10,AWS,aws-prod-core,S3,storage,1497.6
+2025-01-11,AWS,aws-prod-core,S3,storage,1480.85
+2025-01-12,AWS,aws-prod-core,S3,storage,1483.95
+2025-01-13,AWS,aws-prod-core,S3,storage,1509.42
+2025-01-14,AWS,aws-prod-core,S3,storage,1466.35
+2025-01-15,AWS,aws-prod-core,S3,storage,1452.41
+2025-01-16,AWS,aws-prod-core,S3,storage,1439.46
+2025-01-17,AWS,aws-prod-core,S3,storage,1448.67
+2025-01-18,AWS,aws-prod-core,S3,storage,1477.31
+2025-01-19,AWS,aws-prod-core,S3,storage,1494.03
+2025-01-20,AWS,aws-prod-core,S3,storage,1498.18
+2025-01-21,AWS,aws-prod-core,S3,storage,1468.24
+2025-01-22,AWS,aws-prod-core,S3,storage,1437.17
+2025-01-23,AWS,aws-prod-core,S3,storage,1466.77
+2025-01-24,AWS,aws-prod-core,S3,storage,1472.25
+2025-01-25,AWS,aws-prod-core,S3,storage,1493.49
+2025-01-26,AWS,aws-prod-core,S3,storage,1509.52
+2025-01-27,AWS,aws-prod-core,S3,storage,1507.08
+2025-01-28,AWS,aws-prod-core,S3,storage,1518.63
+2025-01-29,AWS,aws-prod-core,S3,storage,1514.52
+2025-01-30,AWS,aws-prod-core,S3,storage,1518.94
+2025-01-31,AWS,aws-prod-core,S3,storage,1497.5
+2025-01-01,AWS,aws-prod-core,RDS,database,2073.06
+2025-01-02,AWS,aws-prod-core,RDS,database,2092.72
+2025-01-03,AWS,aws-prod-core,RDS,database,1974.28
+2025-01-04,AWS,aws-prod-core,RDS,database,1792.38
+2025-01-05,AWS,aws-prod-core,RDS,database,1906.65
+2025-01-06,AWS,aws-prod-core,RDS,database,2080.15
+2025-01-07,AWS,aws-prod-core,RDS,database,1999.78
+2025-01-08,AWS,aws-prod-core,RDS,database,1918.61
+2025-01-09,AWS,aws-prod-core,RDS,database,1977.52
+2025-01-10,AWS,aws-prod-core,RDS,database,2051.65
+2025-01-11,AWS,aws-prod-core,RDS,database,2030.62
+2025-01-12,AWS,aws-prod-core,RDS,database,2004.94
+2025-01-13,AWS,aws-prod-core,RDS,database,2049.4
+2025-01-14,AWS,aws-prod-core,RDS,database,1992.49
+2025-01-15,AWS,aws-prod-core,RDS,database,2011.49
+2025-01-16,AWS,aws-prod-core,RDS,database,2004.95
+2025-01-17,AWS,aws-prod-core,RDS,database,1964.94
+2025-01-18,AWS,aws-prod-core,RDS,database,2001.22
+2025-01-19,AWS,aws-prod-core,RDS,database,2058.09
+2025-01-20,AWS,aws-prod-core,RDS,database,2160.38
+2025-01-21,AWS,aws-prod-core,RDS,database,2045.25
+2025-01-22,AWS,aws-prod-core,RDS,database,2084.11
+2025-01-23,AWS,aws-prod-core,RDS,database,2092.23
+2025-01-24,AWS,aws-prod-core,RDS,database,2085.74
+2025-01-25,AWS,aws-prod-core,RDS,database,2020.44
+2025-01-26,AWS,aws-prod-core,RDS,database,2008.05
+2025-01-27,AWS,aws-prod-core,RDS,database,2113.13
+2025-01-28,AWS,aws-prod-core,RDS,database,2107.33
+2025-01-29,AWS,aws-prod-core,RDS,database,2088.44
+2025-01-30,AWS,aws-prod-core,RDS,database,2065.94
+2025-01-31,AWS,aws-prod-core,RDS,database,2105.08
+2025-01-01,AWS,aws-prod-core,Data Transfer,networking,704.6
+2025-01-02,AWS,aws-prod-core,Data Transfer,networking,655.37
+2025-01-03,AWS,aws-prod-core,Data Transfer,networking,694.01
+2025-01-04,AWS,aws-prod-core,Data Transfer,networking,551.99
+2025-01-05,AWS,aws-prod-core,Data Transfer,networking,546.6
+2025-01-06,AWS,aws-prod-core,Data Transfer,networking,705.38
+2025-01-07,AWS,aws-prod-core,Data Transfer,networking,725.48
+2025-01-08,AWS,aws-prod-core,Data Transfer,networking,760.98
+2025-01-09,AWS,aws-prod-core,Data Transfer,networking,711.35
+2025-01-10,AWS,aws-prod-core,Data Transfer,networking,657.06
+2025-01-11,AWS,aws-prod-core,Data Transfer,networking,569.48
+2025-01-12,AWS,aws-prod-core,Data Transfer,networking,582.0
+2025-01-13,AWS,aws-prod-core,Data Transfer,networking,683.39
+2025-01-14,AWS,aws-prod-core,Data Transfer,networking,725.48
+2025-01-15,AWS,aws-prod-core,Data Transfer,networking,691.68
+2025-01-16,AWS,aws-prod-core,Data Transfer,networking,700.94
+2025-01-17,AWS,aws-prod-core,Data Transfer,networking,658.19
+2025-01-18,AWS,aws-prod-core,Data Transfer,networking,591.14
+2025-01-19,AWS,aws-prod-core,Data Transfer,networking,590.28
+2025-01-20,AWS,aws-prod-core,Data Transfer,networking,659.61
+2025-01-21,AWS,aws-prod-core,Data Transfer,networking,664.18
+2025-01-22,AWS,aws-prod-core,Data Transfer,networking,668.32
+2025-01-23,AWS,aws-prod-core,Data Transfer,networking,667.47
+2025-01-24,AWS,aws-prod-core,Data Transfer,networking,741.76
+2025-01-25,AWS,aws-prod-core,Data Transfer,networking,610.26
+2025-01-26,AWS,aws-prod-core,Data Transfer,networking,592.44
+2025-01-27,AWS,aws-prod-core,Data Transfer,networking,616.49
+2025-01-28,AWS,aws-prod-core,Data Transfer,networking,620.87
+2025-01-29,AWS,aws-prod-core,Data Transfer,networking,643.9
+2025-01-30,AWS,aws-prod-core,Data Transfer,networking,660.78
+2025-01-31,AWS,aws-prod-core,Data Transfer,networking,734.44
+2025-01-01,AWS,aws-prod-core,SageMaker Inference,ai_ml,1011.37
+2025-01-02,AWS,aws-prod-core,SageMaker Inference,ai_ml,1080.27
+2025-01-03,AWS,aws-prod-core,SageMaker Inference,ai_ml,1042.8
+2025-01-04,AWS,aws-prod-core,SageMaker Inference,ai_ml,760.55
+2025-01-05,AWS,aws-prod-core,SageMaker Inference,ai_ml,799.29
+2025-01-06,AWS,aws-prod-core,SageMaker Inference,ai_ml,966.37
+2025-01-07,AWS,aws-prod-core,SageMaker Inference,ai_ml,1124.27
+2025-01-08,AWS,aws-prod-core,SageMaker Inference,ai_ml,978.41
+2025-01-09,AWS,aws-prod-core,SageMaker Inference,ai_ml,974.45
+2025-01-10,AWS,aws-prod-core,SageMaker Inference,ai_ml,1105.11
+2025-01-11,AWS,aws-prod-core,SageMaker Inference,ai_ml,927.71
+2025-01-12,AWS,aws-prod-core,SageMaker Inference,ai_ml,929.02
+2025-01-13,AWS,aws-prod-core,SageMaker Inference,ai_ml,1065.2
+2025-01-14,AWS,aws-prod-core,SageMaker Inference,ai_ml,1066.22
+2025-01-15,AWS,aws-prod-core,SageMaker Inference,ai_ml,1096.91
+2025-01-16,AWS,aws-prod-core,SageMaker Inference,ai_ml,1011.3
+2025-01-17,AWS,aws-prod-core,SageMaker Inference,ai_ml,1076.46
+2025-01-18,AWS,aws-prod-core,SageMaker Inference,ai_ml,824.22
+2025-01-19,AWS,aws-prod-core,SageMaker Inference,ai_ml,867.92
+2025-01-20,AWS,aws-prod-core,SageMaker Inference,ai_ml,1039.14
+2025-01-21,AWS,aws-prod-core,SageMaker Inference,ai_ml,999.72
+2025-01-22,AWS,aws-prod-core,SageMaker Inference,ai_ml,1017.29
+2025-01-23,AWS,aws-prod-core,SageMaker Inference,ai_ml,990.3
+2025-01-24,AWS,aws-prod-core,SageMaker Inference,ai_ml,951.55
+2025-01-25,AWS,aws-prod-core,SageMaker Inference,ai_ml,828.75
+2025-01-26,AWS,aws-prod-core,SageMaker Inference,ai_ml,802.21
+2025-01-27,AWS,aws-prod-core,SageMaker Inference,ai_ml,1013.2
+2025-01-28,AWS,aws-prod-core,SageMaker Inference,ai_ml,960.87
+2025-01-29,AWS,aws-prod-core,SageMaker Inference,ai_ml,1048.34
+2025-01-30,AWS,aws-prod-core,SageMaker Inference,ai_ml,977.03
+2025-01-31,AWS,aws-prod-core,SageMaker Inference,ai_ml,979.8
+2025-01-01,AWS,aws-prod-core,Athena,analytics,586.8
+2025-01-02,AWS,aws-prod-core,Athena,analytics,657.19
+2025-01-03,AWS,aws-prod-core,Athena,analytics,589.96
+2025-01-04,AWS,aws-prod-core,Athena,analytics,457.11
+2025-01-05,AWS,aws-prod-core,Athena,analytics,469.02
+2025-01-06,AWS,aws-prod-core,Athena,analytics,630.83
+2025-01-07,AWS,aws-prod-core,Athena,analytics,555.18
+2025-01-08,AWS,aws-prod-core,Athena,analytics,527.76
+2025-01-09,AWS,aws-prod-core,Athena,analytics,489.4
+2025-01-10,AWS,aws-prod-core,Athena,analytics,544.1
+2025-01-11,AWS,aws-prod-core,Athena,analytics,423.9
+2025-01-12,AWS,aws-prod-core,Athena,analytics,440.25
+2025-01-13,AWS,aws-prod-core,Athena,analytics,603.13
+2025-01-14,AWS,aws-prod-core,Athena,analytics,577.06
+2025-01-15,AWS,aws-prod-core,Athena,analytics,599.8
+2025-01-16,AWS,aws-prod-core,Athena,analytics,589.58
+2025-01-17,AWS,aws-prod-core,Athena,analytics,625.39
+2025-01-18,AWS,aws-prod-core,Athena,analytics,508.44
+2025-01-19,AWS,aws-prod-core,Athena,analytics,472.86
+2025-01-20,AWS,aws-prod-core,Athena,analytics,591.21
+2025-01-21,AWS,aws-prod-core,Athena,analytics,643.26
+2025-01-22,AWS,aws-prod-core,Athena,analytics,641.59
+2025-01-23,AWS,aws-prod-core,Athena,analytics,566.15
+2025-01-24,AWS,aws-prod-core,Athena,analytics,613.26
+2025-01-25,AWS,aws-prod-core,Athena,analytics,452.73
+2025-01-26,AWS,aws-prod-core,Athena,analytics,517.18
+2025-01-27,AWS,aws-prod-core,Athena,analytics,672.79
+2025-01-28,AWS,aws-prod-core,Athena,analytics,652.48
+2025-01-29,AWS,aws-prod-core,Athena,analytics,636.84
+2025-01-30,AWS,aws-prod-core,Athena,analytics,951.01
+2025-01-31,AWS,aws-prod-core,Athena,analytics,992.92
+2025-01-01,AWS,aws-data-platform,EC2,compute,2310.46
+2025-01-02,AWS,aws-data-platform,EC2,compute,2248.14
+2025-01-03,AWS,aws-data-platform,EC2,compute,2207.31
+2025-01-04,AWS,aws-data-platform,EC2,compute,1573.45
+2025-01-05,AWS,aws-data-platform,EC2,compute,1596.56
+2025-01-06,AWS,aws-data-platform,EC2,compute,2226.41
+2025-01-07,AWS,aws-data-platform,EC2,compute,2283.44
+2025-01-08,AWS,aws-data-platform,EC2,compute,2326.38
+2025-01-09,AWS,aws-data-platform,EC2,compute,2371.05
+2025-01-10,AWS,aws-data-platform,EC2,compute,2429.88
+2025-01-11,AWS,aws-data-platform,EC2,compute,1589.63
+2025-01-12,AWS,aws-data-platform,EC2,compute,1578.69
+2025-01-13,AWS,aws-data-platform,EC2,compute,2247.88
+2025-01-14,AWS,aws-data-platform,EC2,compute,2237.32
+2025-01-15,AWS,aws-data-platform,EC2,compute,2195.61
+2025-01-16,AWS,aws-data-platform,EC2,compute,2121.13
+2025-01-17,AWS,aws-data-platform,EC2,compute,2187.54
+2025-01-18,AWS,aws-data-platform,EC2,compute,1515.38
+2025-01-19,AWS,aws-data-platform,EC2,compute,1547.42
+2025-01-20,AWS,aws-data-platform,EC2,compute,2175.58
+2025-01-21,AWS,aws-data-platform,EC2,compute,2138.91
+2025-01-22,AWS,aws-data-platform,EC2,compute,2208.86
+2025-01-23,AWS,aws-data-platform,EC2,compute,2239.57
+2025-01-24,AWS,aws-data-platform,EC2,compute,2285.12
+2025-01-25,AWS,aws-data-platform,EC2,compute,1696.82
+2025-01-26,AWS,aws-data-platform,EC2,compute,1649.8
+2025-01-27,AWS,aws-data-platform,EC2,compute,2339.24
+2025-01-28,AWS,aws-data-platform,EC2,compute,2223.21
+2025-01-29,AWS,aws-data-platform,EC2,compute,2154.2
+2025-01-30,AWS,aws-data-platform,EC2,compute,2452.6
+2025-01-31,AWS,aws-data-platform,EC2,compute,2356.46
+2025-01-01,AWS,aws-data-platform,S3,storage,946.44
+2025-01-02,AWS,aws-data-platform,S3,storage,960.58
+2025-01-03,AWS,aws-data-platform,S3,storage,951.88
+2025-01-04,AWS,aws-data-platform,S3,storage,944.65
+2025-01-05,AWS,aws-data-platform,S3,storage,946.86
+2025-01-06,AWS,aws-data-platform,S3,storage,933.57
+2025-01-07,AWS,aws-data-platform,S3,storage,925.45
+2025-01-08,AWS,aws-data-platform,S3,storage,948.73
+2025-01-09,AWS,aws-data-platform,S3,storage,962.15
+2025-01-10,AWS,aws-data-platform,S3,storage,939.87
+2025-01-11,AWS,aws-data-platform,S3,storage,953.1
+2025-01-12,AWS,aws-data-platform,S3,storage,946.96
+2025-01-13,AWS,aws-data-platform,S3,storage,949.39
+2025-01-14,AWS,aws-data-platform,S3,storage,952.33
+2025-01-15,AWS,aws-data-platform,S3,storage,960.68
+2025-01-16,AWS,aws-data-platform,S3,storage,953.76
+2025-01-17,AWS,aws-data-platform,S3,storage,967.09
+2025-01-18,AWS,aws-data-platform,S3,storage,960.24
+2025-01-19,AWS,aws-data-platform,S3,storage,960.98
+2025-01-20,AWS,aws-data-platform,S3,storage,943.56
+2025-01-21,AWS,aws-data-platform,S3,storage,972.27
+2025-01-22,AWS,aws-data-platform,S3,storage,965.77
+2025-01-23,AWS,aws-data-platform,S3,storage,965.82
+2025-01-24,AWS,aws-data-platform,S3,storage,937.39
+2025-01-25,AWS,aws-data-platform,S3,storage,933.19
+2025-01-26,AWS,aws-data-platform,S3,storage,956.6
+2025-01-27,AWS,aws-data-platform,S3,storage,956.86
+2025-01-28,AWS,aws-data-platform,S3,storage,930.26
+2025-01-29,AWS,aws-data-platform,S3,storage,953.33
+2025-01-30,AWS,aws-data-platform,S3,storage,945.68
+2025-01-31,AWS,aws-data-platform,S3,storage,966.34
+2025-01-01,AWS,aws-data-platform,RDS,database,1049.77
+2025-01-02,AWS,aws-data-platform,RDS,database,1035.9
+2025-01-03,AWS,aws-data-platform,RDS,database,1095.14
+2025-01-04,AWS,aws-data-platform,RDS,database,836.35
+2025-01-05,AWS,aws-data-platform,RDS,database,817.25
+2025-01-06,AWS,aws-data-platform,RDS,database,1068.39
+2025-01-07,AWS,aws-data-platform,RDS,database,1062.44
+2025-01-08,AWS,aws-data-platform,RDS,database,1069.51
+2025-01-09,AWS,aws-data-platform,RDS,database,1112.13
+2025-01-10,AWS,aws-data-platform,RDS,database,1100.0
+2025-01-11,AWS,aws-data-platform,RDS,database,827.06
+2025-01-12,AWS,aws-data-platform,RDS,database,837.75
+2025-01-13,AWS,aws-data-platform,RDS,database,1058.02
+2025-01-14,AWS,aws-data-platform,RDS,database,1082.59
+2025-01-15,AWS,aws-data-platform,RDS,database,1065.73
+2025-01-16,AWS,aws-data-platform,RDS,database,998.19
+2025-01-17,AWS,aws-data-platform,RDS,database,975.91
+2025-01-18,AWS,aws-data-platform,RDS,database,744.96
+2025-01-19,AWS,aws-data-platform,RDS,database,782.5
+2025-01-20,AWS,aws-data-platform,RDS,database,1057.86
+2025-01-21,AWS,aws-data-platform,RDS,database,1067.25
+2025-01-22,AWS,aws-data-platform,RDS,database,1122.42
+2025-01-23,AWS,aws-data-platform,RDS,database,1058.78
+2025-01-24,AWS,aws-data-platform,RDS,database,1062.14
+2025-01-25,AWS,aws-data-platform,RDS,database,804.84
+2025-01-26,AWS,aws-data-platform,RDS,database,787.48
+2025-01-27,AWS,aws-data-platform,RDS,database,1059.53
+2025-01-28,AWS,aws-data-platform,RDS,database,1020.34
+2025-01-29,AWS,aws-data-platform,RDS,database,1082.83
+2025-01-30,AWS,aws-data-platform,RDS,database,1109.42
+2025-01-31,AWS,aws-data-platform,RDS,database,1176.03
+2025-01-01,AWS,aws-data-platform,Data Transfer,networking,371.03
+2025-01-02,AWS,aws-data-platform,Data Transfer,networking,374.89
+2025-01-03,AWS,aws-data-platform,Data Transfer,networking,381.28
+2025-01-04,AWS,aws-data-platform,Data Transfer,networking,281.51
+2025-01-05,AWS,aws-data-platform,Data Transfer,networking,278.58
+2025-01-06,AWS,aws-data-platform,Data Transfer,networking,345.41
+2025-01-07,AWS,aws-data-platform,Data Transfer,networking,365.38
+2025-01-08,AWS,aws-data-platform,Data Transfer,networking,360.21
+2025-01-09,AWS,aws-data-platform,Data Transfer,networking,363.62
+2025-01-10,AWS,aws-data-platform,Data Transfer,networking,383.93
+2025-01-11,AWS,aws-data-platform,Data Transfer,networking,312.05
+2025-01-12,AWS,aws-data-platform,Data Transfer,networking,298.32
+2025-01-13,AWS,aws-data-platform,Data Transfer,networking,355.21
+2025-01-14,AWS,aws-data-platform,Data Transfer,networking,380.9
+2025-01-15,AWS,aws-data-platform,Data Transfer,networking,387.22
+2025-01-16,AWS,aws-data-platform,Data Transfer,networking,345.12
+2025-01-17,AWS,aws-data-platform,Data Transfer,networking,348.57
+2025-01-18,AWS,aws-data-platform,Data Transfer,networking,287.4
+2025-01-19,AWS,aws-data-platform,Data Transfer,networking,301.31
+2025-01-20,AWS,aws-data-platform,Data Transfer,networking,388.41
+2025-01-21,AWS,aws-data-platform,Data Transfer,networking,381.94
+2025-01-22,AWS,aws-data-platform,Data Transfer,networking,384.84
+2025-01-23,AWS,aws-data-platform,Data Transfer,networking,376.1
+2025-01-24,AWS,aws-data-platform,Data Transfer,networking,357.93
+2025-01-25,AWS,aws-data-platform,Data Transfer,networking,285.49
+2025-01-26,AWS,aws-data-platform,Data Transfer,networking,289.34
+2025-01-27,AWS,aws-data-platform,Data Transfer,networking,363.21
+2025-01-28,AWS,aws-data-platform,Data Transfer,networking,330.71
+2025-01-29,AWS,aws-data-platform,Data Transfer,networking,341.05
+2025-01-30,AWS,aws-data-platform,Data Transfer,networking,365.35
+2025-01-31,AWS,aws-data-platform,Data Transfer,networking,366.24
+2025-01-01,AWS,aws-data-platform,SageMaker Inference,ai_ml,586.17
+2025-01-02,AWS,aws-data-platform,SageMaker Inference,ai_ml,511.96
+2025-01-03,AWS,aws-data-platform,SageMaker Inference,ai_ml,495.73
+2025-01-04,AWS,aws-data-platform,SageMaker Inference,ai_ml,388.43
+2025-01-05,AWS,aws-data-platform,SageMaker Inference,ai_ml,355.4
+2025-01-06,AWS,aws-data-platform,SageMaker Inference,ai_ml,578.78
+2025-01-07,AWS,aws-data-platform,SageMaker Inference,ai_ml,550.88
+2025-01-08,AWS,aws-data-platform,SageMaker Inference,ai_ml,563.47
+2025-01-09,AWS,aws-data-platform,SageMaker Inference,ai_ml,546.21
+2025-01-10,AWS,aws-data-platform,SageMaker Inference,ai_ml,578.66
+2025-01-11,AWS,aws-data-platform,SageMaker Inference,ai_ml,377.6
+2025-01-12,AWS,aws-data-platform,SageMaker Inference,ai_ml,365.46
+2025-01-13,AWS,aws-data-platform,SageMaker Inference,ai_ml,533.76
+2025-01-14,AWS,aws-data-platform,SageMaker Inference,ai_ml,563.77
+2025-01-15,AWS,aws-data-platform,SageMaker Inference,ai_ml,530.11
+2025-01-16,AWS,aws-data-platform,SageMaker Inference,ai_ml,568.24
+2025-01-17,AWS,aws-data-platform,SageMaker Inference,ai_ml,672.77
+2025-01-18,AWS,aws-data-platform,SageMaker Inference,ai_ml,440.76
+2025-01-19,AWS,aws-data-platform,SageMaker Inference,ai_ml,426.22
+2025-01-20,AWS,aws-data-platform,SageMaker Inference,ai_ml,614.65
+2025-01-21,AWS,aws-data-platform,SageMaker Inference,ai_ml,532.29
+2025-01-22,AWS,aws-data-platform,SageMaker Inference,ai_ml,514.63
+2025-01-23,AWS,aws-data-platform,SageMaker Inference,ai_ml,593.08
+2025-01-24,AWS,aws-data-platform,SageMaker Inference,ai_ml,561.97
+2025-01-25,AWS,aws-data-platform,SageMaker Inference,ai_ml,357.82
+2025-01-26,AWS,aws-data-platform,SageMaker Inference,ai_ml,366.09
+2025-01-27,AWS,aws-data-platform,SageMaker Inference,ai_ml,540.0
+2025-01-28,AWS,aws-data-platform,SageMaker Inference,ai_ml,523.93
+2025-01-29,AWS,aws-data-platform,SageMaker Inference,ai_ml,554.68
+2025-01-30,AWS,aws-data-platform,SageMaker Inference,ai_ml,542.8
+2025-01-31,AWS,aws-data-platform,SageMaker Inference,ai_ml,542.32
+2025-01-01,AWS,aws-data-platform,Athena,analytics,673.49
+2025-01-02,AWS,aws-data-platform,Athena,analytics,682.81
+2025-01-03,AWS,aws-data-platform,Athena,analytics,676.15
+2025-01-04,AWS,aws-data-platform,Athena,analytics,407.16
+2025-01-05,AWS,aws-data-platform,Athena,analytics,369.95
+2025-01-06,AWS,aws-data-platform,Athena,analytics,607.77
+2025-01-07,AWS,aws-data-platform,Athena,analytics,638.51
+2025-01-08,AWS,aws-data-platform,Athena,analytics,653.87
+2025-01-09,AWS,aws-data-platform,Athena,analytics,643.69
+2025-01-10,AWS,aws-data-platform,Athena,analytics,656.24
+2025-01-11,AWS,aws-data-platform,Athena,analytics,404.26
+2025-01-12,AWS,aws-data-platform,Athena,analytics,433.9
+2025-01-13,AWS,aws-data-platform,Athena,analytics,699.76
+2025-01-14,AWS,aws-data-platform,Athena,analytics,712.66
+2025-01-15,AWS,aws-data-platform,Athena,analytics,673.95
+2025-01-16,AWS,aws-data-platform,Athena,analytics,708.11
+2025-01-17,AWS,aws-data-platform,Athena,analytics,716.17
+2025-01-18,AWS,aws-data-platform,Athena,analytics,447.15
+2025-01-19,AWS,aws-data-platform,Athena,analytics,451.44
+2025-01-20,AWS,aws-data-platform,Athena,analytics,749.65
+2025-01-21,AWS,aws-data-platform,Athena,analytics,713.63
+2025-01-22,AWS,aws-data-platform,Athena,analytics,713.18
+2025-01-23,AWS,aws-data-platform,Athena,analytics,754.71
+2025-01-24,AWS,aws-data-platform,Athena,analytics,689.5
+2025-01-25,AWS,aws-data-platform,Athena,analytics,396.15
+2025-01-26,AWS,aws-data-platform,Athena,analytics,410.11
+2025-01-27,AWS,aws-data-platform,Athena,analytics,706.96
+2025-01-28,AWS,aws-data-platform,Athena,analytics,659.96
+2025-01-29,AWS,aws-data-platform,Athena,analytics,671.75
+2025-01-30,AWS,aws-data-platform,Athena,analytics,1049.28
+2025-01-31,AWS,aws-data-platform,Athena,analytics,909.56
+2025-01-01,AWS,aws-dev-sandbox,EC2,compute,1109.15
+2025-01-02,AWS,aws-dev-sandbox,EC2,compute,1128.26
+2025-01-03,AWS,aws-dev-sandbox,EC2,compute,1127.82
+2025-01-04,AWS,aws-dev-sandbox,EC2,compute,751.12
+2025-01-05,AWS,aws-dev-sandbox,EC2,compute,805.6
+2025-01-06,AWS,aws-dev-sandbox,EC2,compute,1136.88
+2025-01-07,AWS,aws-dev-sandbox,EC2,compute,1160.76
+2025-01-08,AWS,aws-dev-sandbox,EC2,compute,1120.99
+2025-01-09,AWS,aws-dev-sandbox,EC2,compute,1121.59
+2025-01-10,AWS,aws-dev-sandbox,EC2,compute,1098.46
+2025-01-11,AWS,aws-dev-sandbox,EC2,compute,811.17
+2025-01-12,AWS,aws-dev-sandbox,EC2,compute,810.26
+2025-01-13,AWS,aws-dev-sandbox,EC2,compute,1159.02
+2025-01-14,AWS,aws-dev-sandbox,EC2,compute,1195.34
+2025-01-15,AWS,aws-dev-sandbox,EC2,compute,1206.73
+2025-01-16,AWS,aws-dev-sandbox,EC2,compute,1198.38
+2025-01-17,AWS,aws-dev-sandbox,EC2,compute,1117.81
+2025-01-18,AWS,aws-dev-sandbox,EC2,compute,772.65
+2025-01-19,AWS,aws-dev-sandbox,EC2,compute,760.78
+2025-01-20,AWS,aws-dev-sandbox,EC2,compute,1136.75
+2025-01-21,AWS,aws-dev-sandbox,EC2,compute,1143.29
+2025-01-22,AWS,aws-dev-sandbox,EC2,compute,1093.77
+2025-01-23,AWS,aws-dev-sandbox,EC2,compute,1109.69
+2025-01-24,AWS,aws-dev-sandbox,EC2,compute,1074.56
+2025-01-25,AWS,aws-dev-sandbox,EC2,compute,773.36
+2025-01-26,AWS,aws-dev-sandbox,EC2,compute,747.12
+2025-01-27,AWS,aws-dev-sandbox,EC2,compute,1121.05
+2025-01-28,AWS,aws-dev-sandbox,EC2,compute,1143.87
+2025-01-29,AWS,aws-dev-sandbox,EC2,compute,1210.5
+2025-01-30,AWS,aws-dev-sandbox,EC2,compute,1278.45
+2025-01-31,AWS,aws-dev-sandbox,EC2,compute,1228.11
+2025-01-01,AWS,aws-dev-sandbox,S3,storage,371.78
+2025-01-02,AWS,aws-dev-sandbox,S3,storage,376.09
+2025-01-03,AWS,aws-dev-sandbox,S3,storage,374.0
+2025-01-04,AWS,aws-dev-sandbox,S3,storage,377.7
+2025-01-05,AWS,aws-dev-sandbox,S3,storage,372.01
+2025-01-06,AWS,aws-dev-sandbox,S3,storage,367.11
+2025-01-07,AWS,aws-dev-sandbox,S3,storage,370.67
+2025-01-08,AWS,aws-dev-sandbox,S3,storage,373.05
+2025-01-09,AWS,aws-dev-sandbox,S3,storage,372.5
+2025-01-10,AWS,aws-dev-sandbox,S3,storage,380.01
+2025-01-11,AWS,aws-dev-sandbox,S3,storage,373.69
+2025-01-12,AWS,aws-dev-sandbox,S3,storage,376.31
+2025-01-13,AWS,aws-dev-sandbox,S3,storage,376.52
+2025-01-14,AWS,aws-dev-sandbox,S3,storage,368.84
+2025-01-15,AWS,aws-dev-sandbox,S3,storage,366.29
+2025-01-16,AWS,aws-dev-sandbox,S3,storage,371.47
+2025-01-17,AWS,aws-dev-sandbox,S3,storage,383.88
+2025-01-18,AWS,aws-dev-sandbox,S3,storage,383.28
+2025-01-19,AWS,aws-dev-sandbox,S3,storage,371.78
+2025-01-20,AWS,aws-dev-sandbox,S3,storage,359.72
+2025-01-21,AWS,aws-dev-sandbox,S3,storage,372.04
+2025-01-22,AWS,aws-dev-sandbox,S3,storage,374.4
+2025-01-23,AWS,aws-dev-sandbox,S3,storage,381.76
+2025-01-24,AWS,aws-dev-sandbox,S3,storage,375.6
+2025-01-25,AWS,aws-dev-sandbox,S3,storage,378.65
+2025-01-26,AWS,aws-dev-sandbox,S3,storage,382.73
+2025-01-27,AWS,aws-dev-sandbox,S3,storage,378.47
+2025-01-28,AWS,aws-dev-sandbox,S3,storage,376.56
+2025-01-29,AWS,aws-dev-sandbox,S3,storage,377.9
+2025-01-30,AWS,aws-dev-sandbox,S3,storage,381.23
+2025-01-31,AWS,aws-dev-sandbox,S3,storage,380.23
+2025-01-01,AWS,aws-dev-sandbox,RDS,database,476.81
+2025-01-02,AWS,aws-dev-sandbox,RDS,database,471.43
+2025-01-03,AWS,aws-dev-sandbox,RDS,database,437.24
+2025-01-04,AWS,aws-dev-sandbox,RDS,database,336.08
+2025-01-05,AWS,aws-dev-sandbox,RDS,database,354.4
+2025-01-06,AWS,aws-dev-sandbox,RDS,database,451.76
+2025-01-07,AWS,aws-dev-sandbox,RDS,database,462.9
+2025-01-08,AWS,aws-dev-sandbox,RDS,database,486.95
+2025-01-09,AWS,aws-dev-sandbox,RDS,database,470.0
+2025-01-10,AWS,aws-dev-sandbox,RDS,database,471.1
+2025-01-11,AWS,aws-dev-sandbox,RDS,database,342.0
+2025-01-12,AWS,aws-dev-sandbox,RDS,database,363.18
+2025-01-13,AWS,aws-dev-sandbox,RDS,database,477.42
+2025-01-14,AWS,aws-dev-sandbox,RDS,database,475.75
+2025-01-15,AWS,aws-dev-sandbox,RDS,database,491.43
+2025-01-16,AWS,aws-dev-sandbox,RDS,database,490.66
+2025-01-17,AWS,aws-dev-sandbox,RDS,database,471.18
+2025-01-18,AWS,aws-dev-sandbox,RDS,database,348.44
+2025-01-19,AWS,aws-dev-sandbox,RDS,database,356.48
+2025-01-20,AWS,aws-dev-sandbox,RDS,database,467.09
+2025-01-21,AWS,aws-dev-sandbox,RDS,database,445.51
+2025-01-22,AWS,aws-dev-sandbox,RDS,database,459.16
+2025-01-23,AWS,aws-dev-sandbox,RDS,database,449.27
+2025-01-24,AWS,aws-dev-sandbox,RDS,database,481.74
+2025-01-25,AWS,aws-dev-sandbox,RDS,database,360.48
+2025-01-26,AWS,aws-dev-sandbox,RDS,database,350.16
+2025-01-27,AWS,aws-dev-sandbox,RDS,database,462.72
+2025-01-28,AWS,aws-dev-sandbox,RDS,database,446.71
+2025-01-29,AWS,aws-dev-sandbox,RDS,database,448.12
+2025-01-30,AWS,aws-dev-sandbox,RDS,database,497.99
+2025-01-31,AWS,aws-dev-sandbox,RDS,database,528.88
+2025-01-01,AWS,aws-dev-sandbox,Data Transfer,networking,157.32
+2025-01-02,AWS,aws-dev-sandbox,Data Transfer,networking,149.99
+2025-01-03,AWS,aws-dev-sandbox,Data Transfer,networking,157.52
+2025-01-04,AWS,aws-dev-sandbox,Data Transfer,networking,130.9
+2025-01-05,AWS,aws-dev-sandbox,Data Transfer,networking,133.29
+2025-01-06,AWS,aws-dev-sandbox,Data Transfer,networking,164.79
+2025-01-07,AWS,aws-dev-sandbox,Data Transfer,networking,151.23
+2025-01-08,AWS,aws-dev-sandbox,Data Transfer,networking,152.01
+2025-01-09,AWS,aws-dev-sandbox,Data Transfer,networking,154.15
+2025-01-10,AWS,aws-dev-sandbox,Data Transfer,networking,155.3
+2025-01-11,AWS,aws-dev-sandbox,Data Transfer,networking,127.88
+2025-01-12,AWS,aws-dev-sandbox,Data Transfer,networking,139.21
+2025-01-13,AWS,aws-dev-sandbox,Data Transfer,networking,175.91
+2025-01-14,AWS,aws-dev-sandbox,Data Transfer,networking,161.12
+2025-01-15,AWS,aws-dev-sandbox,Data Transfer,networking,168.19
+2025-01-16,AWS,aws-dev-sandbox,Data Transfer,networking,171.55
+2025-01-17,AWS,aws-dev-sandbox,Data Transfer,networking,160.75
+2025-01-18,AWS,aws-dev-sandbox,Data Transfer,networking,135.71
+2025-01-19,AWS,aws-dev-sandbox,Data Transfer,networking,132.32
+2025-01-20,AWS,aws-dev-sandbox,Data Transfer,networking,153.1
+2025-01-21,AWS,aws-dev-sandbox,Data Transfer,networking,162.33
+2025-01-22,AWS,aws-dev-sandbox,Data Transfer,networking,165.15
+2025-01-23,AWS,aws-dev-sandbox,Data Transfer,networking,162.81
+2025-01-24,AWS,aws-dev-sandbox,Data Transfer,networking,163.31
+2025-01-25,AWS,aws-dev-sandbox,Data Transfer,networking,126.33
+2025-01-26,AWS,aws-dev-sandbox,Data Transfer,networking,133.14
+2025-01-27,AWS,aws-dev-sandbox,Data Transfer,networking,165.2
+2025-01-28,AWS,aws-dev-sandbox,Data Transfer,networking,166.44
+2025-01-29,AWS,aws-dev-sandbox,Data Transfer,networking,168.78
+2025-01-30,AWS,aws-dev-sandbox,Data Transfer,networking,161.88
+2025-01-31,AWS,aws-dev-sandbox,Data Transfer,networking,158.38
+2025-01-01,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,291.51
+2025-01-02,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,269.82
+2025-01-03,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,300.21
+2025-01-04,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,186.76
+2025-01-05,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,181.2
+2025-01-06,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,308.8
+2025-01-07,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,322.76
+2025-01-08,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,329.62
+2025-01-09,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,304.41
+2025-01-10,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,298.26
+2025-01-11,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,191.9
+2025-01-12,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,201.03
+2025-01-13,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,331.86
+2025-01-14,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,320.09
+2025-01-15,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,346.7
+2025-01-16,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,338.18
+2025-01-17,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,312.01
+2025-01-18,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,207.88
+2025-01-19,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,222.07
+2025-01-20,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,359.62
+2025-01-21,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,351.42
+2025-01-22,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,323.95
+2025-01-23,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,306.65
+2025-01-24,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,313.2
+2025-01-25,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,220.01
+2025-01-26,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,212.26
+2025-01-27,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,321.33
+2025-01-28,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,311.21
+2025-01-29,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,299.46
+2025-01-30,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,296.87
+2025-01-31,AWS,aws-dev-sandbox,SageMaker Inference,ai_ml,301.12
+2025-01-01,AWS,aws-dev-sandbox,Athena,analytics,179.15
+2025-01-02,AWS,aws-dev-sandbox,Athena,analytics,170.84
+2025-01-03,AWS,aws-dev-sandbox,Athena,analytics,161.72
+2025-01-04,AWS,aws-dev-sandbox,Athena,analytics,106.3
+2025-01-05,AWS,aws-dev-sandbox,Athena,analytics,113.8
+2025-01-06,AWS,aws-dev-sandbox,Athena,analytics,192.29
+2025-01-07,AWS,aws-dev-sandbox,Athena,analytics,167.32
+2025-01-08,AWS,aws-dev-sandbox,Athena,analytics,160.02
+2025-01-09,AWS,aws-dev-sandbox,Athena,analytics,183.65
+2025-01-10,AWS,aws-dev-sandbox,Athena,analytics,176.46
+2025-01-11,AWS,aws-dev-sandbox,Athena,analytics,100.2
+2025-01-12,AWS,aws-dev-sandbox,Athena,analytics,104.38
+2025-01-13,AWS,aws-dev-sandbox,Athena,analytics,181.17
+2025-01-14,AWS,aws-dev-sandbox,Athena,analytics,165.75
+2025-01-15,AWS,aws-dev-sandbox,Athena,analytics,167.49
+2025-01-16,AWS,aws-dev-sandbox,Athena,analytics,176.84
+2025-01-17,AWS,aws-dev-sandbox,Athena,analytics,157.26
+2025-01-18,AWS,aws-dev-sandbox,Athena,analytics,96.53
+2025-01-19,AWS,aws-dev-sandbox,Athena,analytics,90.31
+2025-01-20,AWS,aws-dev-sandbox,Athena,analytics,146.93
+2025-01-21,AWS,aws-dev-sandbox,Athena,analytics,149.47
+2025-01-22,AWS,aws-dev-sandbox,Athena,analytics,162.05
+2025-01-23,AWS,aws-dev-sandbox,Athena,analytics,159.66
+2025-01-24,AWS,aws-dev-sandbox,Athena,analytics,154.95
+2025-01-25,AWS,aws-dev-sandbox,Athena,analytics,96.15
+2025-01-26,AWS,aws-dev-sandbox,Athena,analytics,90.0
+2025-01-27,AWS,aws-dev-sandbox,Athena,analytics,161.89
+2025-01-28,AWS,aws-dev-sandbox,Athena,analytics,176.59
+2025-01-29,AWS,aws-dev-sandbox,Athena,analytics,169.62
+2025-01-30,AWS,aws-dev-sandbox,Athena,analytics,255.5
+2025-01-31,AWS,aws-dev-sandbox,Athena,analytics,262.16
+2025-01-01,Azure,az-prod-apps,Virtual Machines,compute,3112.51
+2025-01-02,Azure,az-prod-apps,Virtual Machines,compute,3176.57
+2025-01-03,Azure,az-prod-apps,Virtual Machines,compute,3090.28
+2025-01-04,Azure,az-prod-apps,Virtual Machines,compute,2678.93
+2025-01-05,Azure,az-prod-apps,Virtual Machines,compute,2700.66
+2025-01-06,Azure,az-prod-apps,Virtual Machines,compute,3007.98
+2025-01-07,Azure,az-prod-apps,Virtual Machines,compute,3073.7
+2025-01-08,Azure,az-prod-apps,Virtual Machines,compute,3264.2
+2025-01-09,Azure,az-prod-apps,Virtual Machines,compute,3254.15
+2025-01-10,Azure,az-prod-apps,Virtual Machines,compute,3200.88
+2025-01-11,Azure,az-prod-apps,Virtual Machines,compute,2942.84
+2025-01-12,Azure,az-prod-apps,Virtual Machines,compute,3029.23
+2025-01-13,Azure,az-prod-apps,Virtual Machines,compute,3139.99
+2025-01-14,Azure,az-prod-apps,Virtual Machines,compute,3125.98
+2025-01-15,Azure,az-prod-apps,Virtual Machines,compute,3031.25
+2025-01-16,Azure,az-prod-apps,Virtual Machines,compute,3221.47
+2025-01-17,Azure,az-prod-apps,Virtual Machines,compute,3220.01
+2025-01-18,Azure,az-prod-apps,Virtual Machines,compute,2896.4
+2025-01-19,Azure,az-prod-apps,Virtual Machines,compute,2900.84
+2025-01-20,Azure,az-prod-apps,Virtual Machines,compute,3181.9
+2025-01-21,Azure,az-prod-apps,Virtual Machines,compute,3141.22
+2025-01-22,Azure,az-prod-apps,Virtual Machines,compute,3095.04
+2025-01-23,Azure,az-prod-apps,Virtual Machines,compute,3061.76
+2025-01-24,Azure,az-prod-apps,Virtual Machines,compute,3139.04
+2025-01-25,Azure,az-prod-apps,Virtual Machines,compute,2894.78
+2025-01-26,Azure,az-prod-apps,Virtual Machines,compute,2874.89
+2025-01-27,Azure,az-prod-apps,Virtual Machines,compute,3000.02
+2025-01-28,Azure,az-prod-apps,Virtual Machines,compute,3085.5
+2025-01-29,Azure,az-prod-apps,Virtual Machines,compute,3105.39
+2025-01-30,Azure,az-prod-apps,Virtual Machines,compute,3289.02
+2025-01-31,Azure,az-prod-apps,Virtual Machines,compute,3340.71
+2025-01-01,Azure,az-prod-apps,Blob Storage,storage,889.54
+2025-01-02,Azure,az-prod-apps,Blob Storage,storage,859.42
+2025-01-03,Azure,az-prod-apps,Blob Storage,storage,872.08
+2025-01-04,Azure,az-prod-apps,Blob Storage,storage,878.44
+2025-01-05,Azure,az-prod-apps,Blob Storage,storage,898.54
+2025-01-06,Azure,az-prod-apps,Blob Storage,storage,868.05
+2025-01-07,Azure,az-prod-apps,Blob Storage,storage,889.61
+2025-01-08,Azure,az-prod-apps,Blob Storage,storage,875.85
+2025-01-09,Azure,az-prod-apps,Blob Storage,storage,870.6
+2025-01-10,Azure,az-prod-apps,Blob Storage,storage,859.56
+2025-01-11,Azure,az-prod-apps,Blob Storage,storage,855.86
+2025-01-12,Azure,az-prod-apps,Blob Storage,storage,870.99
+2025-01-13,Azure,az-prod-apps,Blob Storage,storage,861.81
+2025-01-14,Azure,az-prod-apps,Blob Storage,storage,878.41
+2025-01-15,Azure,az-prod-apps,Blob Storage,storage,871.09
+2025-01-16,Azure,az-prod-apps,Blob Storage,storage,861.55
+2025-01-17,Azure,az-prod-apps,Blob Storage,storage,864.75
+2025-01-18,Azure,az-prod-apps,Blob Storage,storage,876.42
+2025-01-19,Azure,az-prod-apps,Blob Storage,storage,875.59
+2025-01-20,Azure,az-prod-apps,Blob Storage,storage,879.0
+2025-01-21,Azure,az-prod-apps,Blob Storage,storage,888.6
+2025-01-22,Azure,az-prod-apps,Blob Storage,storage,898.21
+2025-01-23,Azure,az-prod-apps,Blob Storage,storage,887.16
+2025-01-24,Azure,az-prod-apps,Blob Storage,storage,873.59
+2025-01-25,Azure,az-prod-apps,Blob Storage,storage,879.87
+2025-01-26,Azure,az-prod-apps,Blob Storage,storage,887.85
+2025-01-27,Azure,az-prod-apps,Blob Storage,storage,870.04
+2025-01-28,Azure,az-prod-apps,Blob Storage,storage,867.96
+2025-01-29,Azure,az-prod-apps,Blob Storage,storage,869.12
+2025-01-30,Azure,az-prod-apps,Blob Storage,storage,875.78
+2025-01-31,Azure,az-prod-apps,Blob Storage,storage,873.11
+2025-01-01,Azure,az-prod-apps,Azure SQL Database,database,1081.91
+2025-01-02,Azure,az-prod-apps,Azure SQL Database,database,1065.95
+2025-01-03,Azure,az-prod-apps,Azure SQL Database,database,1065.06
+2025-01-04,Azure,az-prod-apps,Azure SQL Database,database,1024.84
+2025-01-05,Azure,az-prod-apps,Azure SQL Database,database,968.85
+2025-01-06,Azure,az-prod-apps,Azure SQL Database,database,1076.13
+2025-01-07,Azure,az-prod-apps,Azure SQL Database,database,1059.56
+2025-01-08,Azure,az-prod-apps,Azure SQL Database,database,1075.86
+2025-01-09,Azure,az-prod-apps,Azure SQL Database,database,1086.74
+2025-01-10,Azure,az-prod-apps,Azure SQL Database,database,1113.85
+2025-01-11,Azure,az-prod-apps,Azure SQL Database,database,1031.11
+2025-01-12,Azure,az-prod-apps,Azure SQL Database,database,965.96
+2025-01-13,Azure,az-prod-apps,Azure SQL Database,database,1041.65
+2025-01-14,Azure,az-prod-apps,Azure SQL Database,database,1058.38
+2025-01-15,Azure,az-prod-apps,Azure SQL Database,database,1033.28
+2025-01-16,Azure,az-prod-apps,Azure SQL Database,database,1052.92
+2025-01-17,Azure,az-prod-apps,Azure SQL Database,database,1049.07
+2025-01-18,Azure,az-prod-apps,Azure SQL Database,database,969.86
+2025-01-19,Azure,az-prod-apps,Azure SQL Database,database,1008.28
+2025-01-20,Azure,az-prod-apps,Azure SQL Database,database,1048.11
+2025-01-21,Azure,az-prod-apps,Azure SQL Database,database,1045.96
+2025-01-22,Azure,az-prod-apps,Azure SQL Database,database,1043.49
+2025-01-23,Azure,az-prod-apps,Azure SQL Database,database,1089.41
+2025-01-24,Azure,az-prod-apps,Azure SQL Database,database,1076.94
+2025-01-25,Azure,az-prod-apps,Azure SQL Database,database,1020.53
+2025-01-26,Azure,az-prod-apps,Azure SQL Database,database,1005.71
+2025-01-27,Azure,az-prod-apps,Azure SQL Database,database,1076.02
+2025-01-28,Azure,az-prod-apps,Azure SQL Database,database,1110.23
+2025-01-29,Azure,az-prod-apps,Azure SQL Database,database,1107.51
+2025-01-30,Azure,az-prod-apps,Azure SQL Database,database,1162.79
+2025-01-31,Azure,az-prod-apps,Azure SQL Database,database,1160.45
+2025-01-01,Azure,az-prod-apps,Bandwidth,networking,450.16
+2025-01-02,Azure,az-prod-apps,Bandwidth,networking,436.88
+2025-01-03,Azure,az-prod-apps,Bandwidth,networking,438.13
+2025-01-04,Azure,az-prod-apps,Bandwidth,networking,409.97
+2025-01-05,Azure,az-prod-apps,Bandwidth,networking,437.73
+2025-01-06,Azure,az-prod-apps,Bandwidth,networking,469.68
+2025-01-07,Azure,az-prod-apps,Bandwidth,networking,450.7
+2025-01-08,Azure,az-prod-apps,Bandwidth,networking,431.69
+2025-01-09,Azure,az-prod-apps,Bandwidth,networking,480.22
+2025-01-10,Azure,az-prod-apps,Bandwidth,networking,501.69
+2025-01-11,Azure,az-prod-apps,Bandwidth,networking,413.79
+2025-01-12,Azure,az-prod-apps,Bandwidth,networking,378.99
+2025-01-13,Azure,az-prod-apps,Bandwidth,networking,423.76
+2025-01-14,Azure,az-prod-apps,Bandwidth,networking,448.73
+2025-01-15,Azure,az-prod-apps,Bandwidth,networking,470.98
+2025-01-16,Azure,az-prod-apps,Bandwidth,networking,421.24
+2025-01-17,Azure,az-prod-apps,Bandwidth,networking,436.22
+2025-01-18,Azure,az-prod-apps,Bandwidth,networking,422.29
+2025-01-19,Azure,az-prod-apps,Bandwidth,networking,407.3
+2025-01-20,Azure,az-prod-apps,Bandwidth,networking,508.32
+2025-01-21,Azure,az-prod-apps,Bandwidth,networking,504.16
+2025-01-22,Azure,az-prod-apps,Bandwidth,networking,458.89
+2025-01-23,Azure,az-prod-apps,Bandwidth,networking,456.23
+2025-01-24,Azure,az-prod-apps,Bandwidth,networking,458.83
+2025-01-25,Azure,az-prod-apps,Bandwidth,networking,379.18
+2025-01-26,Azure,az-prod-apps,Bandwidth,networking,371.39
+2025-01-27,Azure,az-prod-apps,Bandwidth,networking,486.14
+2025-01-28,Azure,az-prod-apps,Bandwidth,networking,453.37
+2025-01-29,Azure,az-prod-apps,Bandwidth,networking,487.23
+2025-01-30,Azure,az-prod-apps,Bandwidth,networking,480.9
+2025-01-31,Azure,az-prod-apps,Bandwidth,networking,480.97
+2025-01-01,Azure,az-prod-apps,Azure OpenAI,ai_ml,602.1
+2025-01-02,Azure,az-prod-apps,Azure OpenAI,ai_ml,619.5
+2025-01-03,Azure,az-prod-apps,Azure OpenAI,ai_ml,687.64
+2025-01-04,Azure,az-prod-apps,Azure OpenAI,ai_ml,587.27
+2025-01-05,Azure,az-prod-apps,Azure OpenAI,ai_ml,659.6
+2025-01-06,Azure,az-prod-apps,Azure OpenAI,ai_ml,677.41
+2025-01-07,Azure,az-prod-apps,Azure OpenAI,ai_ml,623.66
+2025-01-08,Azure,az-prod-apps,Azure OpenAI,ai_ml,684.92
+2025-01-09,Azure,az-prod-apps,Azure OpenAI,ai_ml,620.35
+2025-01-10,Azure,az-prod-apps,Azure OpenAI,ai_ml,627.78
+2025-01-11,Azure,az-prod-apps,Azure OpenAI,ai_ml,541.53
+2025-01-12,Azure,az-prod-apps,Azure OpenAI,ai_ml,583.7
+2025-01-13,Azure,az-prod-apps,Azure OpenAI,ai_ml,695.52
+2025-01-14,Azure,az-prod-apps,Azure OpenAI,ai_ml,693.91
+2025-01-15,Azure,az-prod-apps,Azure OpenAI,ai_ml,658.47
+2025-01-16,Azure,az-prod-apps,Azure OpenAI,ai_ml,708.11
+2025-01-17,Azure,az-prod-apps,Azure OpenAI,ai_ml,871.46
+2025-01-18,Azure,az-prod-apps,Azure OpenAI,ai_ml,671.91
+2025-01-19,Azure,az-prod-apps,Azure OpenAI,ai_ml,617.9
+2025-01-20,Azure,az-prod-apps,Azure OpenAI,ai_ml,641.02
+2025-01-21,Azure,az-prod-apps,Azure OpenAI,ai_ml,627.06
+2025-01-22,Azure,az-prod-apps,Azure OpenAI,ai_ml,636.87
+2025-01-23,Azure,az-prod-apps,Azure OpenAI,ai_ml,629.99
+2025-01-24,Azure,az-prod-apps,Azure OpenAI,ai_ml,647.12
+2025-01-25,Azure,az-prod-apps,Azure OpenAI,ai_ml,622.06
+2025-01-26,Azure,az-prod-apps,Azure OpenAI,ai_ml,641.11
+2025-01-27,Azure,az-prod-apps,Azure OpenAI,ai_ml,703.73
+2025-01-28,Azure,az-prod-apps,Azure OpenAI,ai_ml,638.39
+2025-01-29,Azure,az-prod-apps,Azure OpenAI,ai_ml,710.09
+2025-01-30,Azure,az-prod-apps,Azure OpenAI,ai_ml,689.11
+2025-01-31,Azure,az-prod-apps,Azure OpenAI,ai_ml,613.72
+2025-01-01,Azure,az-prod-apps,Synapse Analytics,analytics,461.26
+2025-01-02,Azure,az-prod-apps,Synapse Analytics,analytics,443.19
+2025-01-03,Azure,az-prod-apps,Synapse Analytics,analytics,448.09
+2025-01-04,Azure,az-prod-apps,Synapse Analytics,analytics,361.97
+2025-01-05,Azure,az-prod-apps,Synapse Analytics,analytics,379.97
+2025-01-06,Azure,az-prod-apps,Synapse Analytics,analytics,464.69
+2025-01-07,Azure,az-prod-apps,Synapse Analytics,analytics,398.68
+2025-01-08,Azure,az-prod-apps,Synapse Analytics,analytics,465.42
+2025-01-09,Azure,az-prod-apps,Synapse Analytics,analytics,471.09
+2025-01-10,Azure,az-prod-apps,Synapse Analytics,analytics,425.02
+2025-01-11,Azure,az-prod-apps,Synapse Analytics,analytics,311.57
+2025-01-12,Azure,az-prod-apps,Synapse Analytics,analytics,331.76
+2025-01-13,Azure,az-prod-apps,Synapse Analytics,analytics,405.39
+2025-01-14,Azure,az-prod-apps,Synapse Analytics,analytics,418.12
+2025-01-15,Azure,az-prod-apps,Synapse Analytics,analytics,437.04
+2025-01-16,Azure,az-prod-apps,Synapse Analytics,analytics,408.11
+2025-01-17,Azure,az-prod-apps,Synapse Analytics,analytics,379.69
+2025-01-18,Azure,az-prod-apps,Synapse Analytics,analytics,325.17
+2025-01-19,Azure,az-prod-apps,Synapse Analytics,analytics,315.72
+2025-01-20,Azure,az-prod-apps,Synapse Analytics,analytics,407.68
+2025-01-21,Azure,az-prod-apps,Synapse Analytics,analytics,373.78
+2025-01-22,Azure,az-prod-apps,Synapse Analytics,analytics,386.07
+2025-01-23,Azure,az-prod-apps,Synapse Analytics,analytics,419.61
+2025-01-24,Azure,az-prod-apps,Synapse Analytics,analytics,434.23
+2025-01-25,Azure,az-prod-apps,Synapse Analytics,analytics,320.89
+2025-01-26,Azure,az-prod-apps,Synapse Analytics,analytics,300.45
+2025-01-27,Azure,az-prod-apps,Synapse Analytics,analytics,394.52
+2025-01-28,Azure,az-prod-apps,Synapse Analytics,analytics,419.99
+2025-01-29,Azure,az-prod-apps,Synapse Analytics,analytics,428.74
+2025-01-30,Azure,az-prod-apps,Synapse Analytics,analytics,630.18
+2025-01-31,Azure,az-prod-apps,Synapse Analytics,analytics,649.19
+2025-01-01,Azure,az-analytics,Virtual Machines,compute,1476.87
+2025-01-02,Azure,az-analytics,Virtual Machines,compute,1442.15
+2025-01-03,Azure,az-analytics,Virtual Machines,compute,1533.34
+2025-01-04,Azure,az-analytics,Virtual Machines,compute,1059.09
+2025-01-05,Azure,az-analytics,Virtual Machines,compute,1055.83
+2025-01-06,Azure,az-analytics,Virtual Machines,compute,1563.53
+2025-01-07,Azure,az-analytics,Virtual Machines,compute,1489.26
+2025-01-08,Azure,az-analytics,Virtual Machines,compute,1469.84
+2025-01-09,Azure,az-analytics,Virtual Machines,compute,1409.96
+2025-01-10,Azure,az-analytics,Virtual Machines,compute,1427.34
+2025-01-11,Azure,az-analytics,Virtual Machines,compute,966.22
+2025-01-12,Azure,az-analytics,Virtual Machines,compute,1017.11
+2025-01-13,Azure,az-analytics,Virtual Machines,compute,1476.47
+2025-01-14,Azure,az-analytics,Virtual Machines,compute,1457.63
+2025-01-15,Azure,az-analytics,Virtual Machines,compute,1456.48
+2025-01-16,Azure,az-analytics,Virtual Machines,compute,1494.87
+2025-01-17,Azure,az-analytics,Virtual Machines,compute,1430.2
+2025-01-18,Azure,az-analytics,Virtual Machines,compute,1020.13
+2025-01-19,Azure,az-analytics,Virtual Machines,compute,1045.63
+2025-01-20,Azure,az-analytics,Virtual Machines,compute,1403.11
+2025-01-21,Azure,az-analytics,Virtual Machines,compute,1465.88
+2025-01-22,Azure,az-analytics,Virtual Machines,compute,1395.31
+2025-01-23,Azure,az-analytics,Virtual Machines,compute,1427.47
+2025-01-24,Azure,az-analytics,Virtual Machines,compute,1399.17
+2025-01-25,Azure,az-analytics,Virtual Machines,compute,1049.3
+2025-01-26,Azure,az-analytics,Virtual Machines,compute,1004.41
+2025-01-27,Azure,az-analytics,Virtual Machines,compute,1383.42
+2025-01-28,Azure,az-analytics,Virtual Machines,compute,1434.24
+2025-01-29,Azure,az-analytics,Virtual Machines,compute,1436.74
+2025-01-30,Azure,az-analytics,Virtual Machines,compute,1475.11
+2025-01-31,Azure,az-analytics,Virtual Machines,compute,1544.34
+2025-01-01,Azure,az-analytics,Blob Storage,storage,599.22
+2025-01-02,Azure,az-analytics,Blob Storage,storage,609.08
+2025-01-03,Azure,az-analytics,Blob Storage,storage,601.9
+2025-01-04,Azure,az-analytics,Blob Storage,storage,609.23
+2025-01-05,Azure,az-analytics,Blob Storage,storage,592.1
+2025-01-06,Azure,az-analytics,Blob Storage,storage,593.12
+2025-01-07,Azure,az-analytics,Blob Storage,storage,605.45
+2025-01-08,Azure,az-analytics,Blob Storage,storage,615.98
+2025-01-09,Azure,az-analytics,Blob Storage,storage,602.8
+2025-01-10,Azure,az-analytics,Blob Storage,storage,595.54
+2025-01-11,Azure,az-analytics,Blob Storage,storage,603.36
+2025-01-12,Azure,az-analytics,Blob Storage,storage,598.11
+2025-01-13,Azure,az-analytics,Blob Storage,storage,598.37
+2025-01-14,Azure,az-analytics,Blob Storage,storage,607.59
+2025-01-15,Azure,az-analytics,Blob Storage,storage,601.17
+2025-01-16,Azure,az-analytics,Blob Storage,storage,587.16
+2025-01-17,Azure,az-analytics,Blob Storage,storage,585.42
+2025-01-18,Azure,az-analytics,Blob Storage,storage,594.71
+2025-01-19,Azure,az-analytics,Blob Storage,storage,585.11
+2025-01-20,Azure,az-analytics,Blob Storage,storage,592.42
+2025-01-21,Azure,az-analytics,Blob Storage,storage,587.8
+2025-01-22,Azure,az-analytics,Blob Storage,storage,609.14
+2025-01-23,Azure,az-analytics,Blob Storage,storage,624.47
+2025-01-24,Azure,az-analytics,Blob Storage,storage,606.47
+2025-01-25,Azure,az-analytics,Blob Storage,storage,608.08
+2025-01-26,Azure,az-analytics,Blob Storage,storage,599.45
+2025-01-27,Azure,az-analytics,Blob Storage,storage,600.35
+2025-01-28,Azure,az-analytics,Blob Storage,storage,617.65
+2025-01-29,Azure,az-analytics,Blob Storage,storage,608.39
+2025-01-30,Azure,az-analytics,Blob Storage,storage,605.35
+2025-01-31,Azure,az-analytics,Blob Storage,storage,598.83
+2025-01-01,Azure,az-analytics,Azure SQL Database,database,636.98
+2025-01-02,Azure,az-analytics,Azure SQL Database,database,633.97
+2025-01-03,Azure,az-analytics,Azure SQL Database,database,658.43
+2025-01-04,Azure,az-analytics,Azure SQL Database,database,503.86
+2025-01-05,Azure,az-analytics,Azure SQL Database,database,474.87
+2025-01-06,Azure,az-analytics,Azure SQL Database,database,628.13
+2025-01-07,Azure,az-analytics,Azure SQL Database,database,631.5
+2025-01-08,Azure,az-analytics,Azure SQL Database,database,651.01
+2025-01-09,Azure,az-analytics,Azure SQL Database,database,670.48
+2025-01-10,Azure,az-analytics,Azure SQL Database,database,708.66
+2025-01-11,Azure,az-analytics,Azure SQL Database,database,503.31
+2025-01-12,Azure,az-analytics,Azure SQL Database,database,490.48
+2025-01-13,Azure,az-analytics,Azure SQL Database,database,662.75
+2025-01-14,Azure,az-analytics,Azure SQL Database,database,645.59
+2025-01-15,Azure,az-analytics,Azure SQL Database,database,646.29
+2025-01-16,Azure,az-analytics,Azure SQL Database,database,642.13
+2025-01-17,Azure,az-analytics,Azure SQL Database,database,604.48
+2025-01-18,Azure,az-analytics,Azure SQL Database,database,472.44
+2025-01-19,Azure,az-analytics,Azure SQL Database,database,478.53
+2025-01-20,Azure,az-analytics,Azure SQL Database,database,666.95
+2025-01-21,Azure,az-analytics,Azure SQL Database,database,659.91
+2025-01-22,Azure,az-analytics,Azure SQL Database,database,635.36
+2025-01-23,Azure,az-analytics,Azure SQL Database,database,639.87
+2025-01-24,Azure,az-analytics,Azure SQL Database,database,612.35
+2025-01-25,Azure,az-analytics,Azure SQL Database,database,459.73
+2025-01-26,Azure,az-analytics,Azure SQL Database,database,482.63
+2025-01-27,Azure,az-analytics,Azure SQL Database,database,644.47
+2025-01-28,Azure,az-analytics,Azure SQL Database,database,664.95
+2025-01-29,Azure,az-analytics,Azure SQL Database,database,626.66
+2025-01-30,Azure,az-analytics,Azure SQL Database,database,668.12
+2025-01-31,Azure,az-analytics,Azure SQL Database,database,669.27
+2025-01-01,Azure,az-analytics,Bandwidth,networking,230.99
+2025-01-02,Azure,az-analytics,Bandwidth,networking,225.42
+2025-01-03,Azure,az-analytics,Bandwidth,networking,233.93
+2025-01-04,Azure,az-analytics,Bandwidth,networking,192.61
+2025-01-05,Azure,az-analytics,Bandwidth,networking,195.32
+2025-01-06,Azure,az-analytics,Bandwidth,networking,228.52
+2025-01-07,Azure,az-analytics,Bandwidth,networking,213.55
+2025-01-08,Azure,az-analytics,Bandwidth,networking,227.99
+2025-01-09,Azure,az-analytics,Bandwidth,networking,226.37
+2025-01-10,Azure,az-analytics,Bandwidth,networking,254.82
+2025-01-11,Azure,az-analytics,Bandwidth,networking,216.82
+2025-01-12,Azure,az-analytics,Bandwidth,networking,224.88
+2025-01-13,Azure,az-analytics,Bandwidth,networking,245.86
+2025-01-14,Azure,az-analytics,Bandwidth,networking,248.72
+2025-01-15,Azure,az-analytics,Bandwidth,networking,254.15
+2025-01-16,Azure,az-analytics,Bandwidth,networking,255.43
+2025-01-17,Azure,az-analytics,Bandwidth,networking,241.72
+2025-01-18,Azure,az-analytics,Bandwidth,networking,204.8
+2025-01-19,Azure,az-analytics,Bandwidth,networking,197.24
+2025-01-20,Azure,az-analytics,Bandwidth,networking,243.59
+2025-01-21,Azure,az-analytics,Bandwidth,networking,222.07
+2025-01-22,Azure,az-analytics,Bandwidth,networking,237.52
+2025-01-23,Azure,az-analytics,Bandwidth,networking,234.39
+2025-01-24,Azure,az-analytics,Bandwidth,networking,241.8
+2025-01-25,Azure,az-analytics,Bandwidth,networking,194.17
+2025-01-26,Azure,az-analytics,Bandwidth,networking,194.01
+2025-01-27,Azure,az-analytics,Bandwidth,networking,239.6
+2025-01-28,Azure,az-analytics,Bandwidth,networking,248.71
+2025-01-29,Azure,az-analytics,Bandwidth,networking,240.77
+2025-01-30,Azure,az-analytics,Bandwidth,networking,228.61
+2025-01-31,Azure,az-analytics,Bandwidth,networking,243.87
+2025-01-01,Azure,az-analytics,Azure OpenAI,ai_ml,383.08
+2025-01-02,Azure,az-analytics,Azure OpenAI,ai_ml,329.87
+2025-01-03,Azure,az-analytics,Azure OpenAI,ai_ml,389.6
+2025-01-04,Azure,az-analytics,Azure OpenAI,ai_ml,253.24
+2025-01-05,Azure,az-analytics,Azure OpenAI,ai_ml,245.52
+2025-01-06,Azure,az-analytics,Azure OpenAI,ai_ml,378.55
+2025-01-07,Azure,az-analytics,Azure OpenAI,ai_ml,383.3
+2025-01-08,Azure,az-analytics,Azure OpenAI,ai_ml,428.23
+2025-01-09,Azure,az-analytics,Azure OpenAI,ai_ml,422.82
+2025-01-10,Azure,az-analytics,Azure OpenAI,ai_ml,450.14
+2025-01-11,Azure,az-analytics,Azure OpenAI,ai_ml,288.03
+2025-01-12,Azure,az-analytics,Azure OpenAI,ai_ml,272.41
+2025-01-13,Azure,az-analytics,Azure OpenAI,ai_ml,405.91
+2025-01-14,Azure,az-analytics,Azure OpenAI,ai_ml,423.56
+2025-01-15,Azure,az-analytics,Azure OpenAI,ai_ml,439.87
+2025-01-16,Azure,az-analytics,Azure OpenAI,ai_ml,453.46
+2025-01-17,Azure,az-analytics,Azure OpenAI,ai_ml,426.95
+2025-01-18,Azure,az-analytics,Azure OpenAI,ai_ml,276.74
+2025-01-19,Azure,az-analytics,Azure OpenAI,ai_ml,283.52
+2025-01-20,Azure,az-analytics,Azure OpenAI,ai_ml,416.67
+2025-01-21,Azure,az-analytics,Azure OpenAI,ai_ml,389.45
+2025-01-22,Azure,az-analytics,Azure OpenAI,ai_ml,384.4
+2025-01-23,Azure,az-analytics,Azure OpenAI,ai_ml,395.55
+2025-01-24,Azure,az-analytics,Azure OpenAI,ai_ml,424.17
+2025-01-25,Azure,az-analytics,Azure OpenAI,ai_ml,296.28
+2025-01-26,Azure,az-analytics,Azure OpenAI,ai_ml,262.32
+2025-01-27,Azure,az-analytics,Azure OpenAI,ai_ml,397.95
+2025-01-28,Azure,az-analytics,Azure OpenAI,ai_ml,401.27
+2025-01-29,Azure,az-analytics,Azure OpenAI,ai_ml,432.47
+2025-01-30,Azure,az-analytics,Azure OpenAI,ai_ml,414.71
+2025-01-31,Azure,az-analytics,Azure OpenAI,ai_ml,408.87
+2025-01-01,Azure,az-analytics,Synapse Analytics,analytics,411.2
+2025-01-02,Azure,az-analytics,Synapse Analytics,analytics,447.63
+2025-01-03,Azure,az-analytics,Synapse Analytics,analytics,433.99
+2025-01-04,Azure,az-analytics,Synapse Analytics,analytics,240.23
+2025-01-05,Azure,az-analytics,Synapse Analytics,analytics,242.1
+2025-01-06,Azure,az-analytics,Synapse Analytics,analytics,359.16
+2025-01-07,Azure,az-analytics,Synapse Analytics,analytics,324.15
+2025-01-08,Azure,az-analytics,Synapse Analytics,analytics,383.23
+2025-01-09,Azure,az-analytics,Synapse Analytics,analytics,383.39
+2025-01-10,Azure,az-analytics,Synapse Analytics,analytics,386.62
+2025-01-11,Azure,az-analytics,Synapse Analytics,analytics,251.33
+2025-01-12,Azure,az-analytics,Synapse Analytics,analytics,272.15
+2025-01-13,Azure,az-analytics,Synapse Analytics,analytics,444.75
+2025-01-14,Azure,az-analytics,Synapse Analytics,analytics,485.19
+2025-01-15,Azure,az-analytics,Synapse Analytics,analytics,459.24
+2025-01-16,Azure,az-analytics,Synapse Analytics,analytics,440.76
+2025-01-17,Azure,az-analytics,Synapse Analytics,analytics,430.09
+2025-01-18,Azure,az-analytics,Synapse Analytics,analytics,229.4
+2025-01-19,Azure,az-analytics,Synapse Analytics,analytics,252.71
+2025-01-20,Azure,az-analytics,Synapse Analytics,analytics,349.34
+2025-01-21,Azure,az-analytics,Synapse Analytics,analytics,362.01
+2025-01-22,Azure,az-analytics,Synapse Analytics,analytics,384.51
+2025-01-23,Azure,az-analytics,Synapse Analytics,analytics,374.7
+2025-01-24,Azure,az-analytics,Synapse Analytics,analytics,378.76
+2025-01-25,Azure,az-analytics,Synapse Analytics,analytics,267.87
+2025-01-26,Azure,az-analytics,Synapse Analytics,analytics,276.46
+2025-01-27,Azure,az-analytics,Synapse Analytics,analytics,413.62
+2025-01-28,Azure,az-analytics,Synapse Analytics,analytics,397.93
+2025-01-29,Azure,az-analytics,Synapse Analytics,analytics,369.18
+2025-01-30,Azure,az-analytics,Synapse Analytics,analytics,632.48
+2025-01-31,Azure,az-analytics,Synapse Analytics,analytics,622.57
+2025-01-01,Azure,az-dev-test,Virtual Machines,compute,667.56
+2025-01-02,Azure,az-dev-test,Virtual Machines,compute,639.59
+2025-01-03,Azure,az-dev-test,Virtual Machines,compute,631.49
+2025-01-04,Azure,az-dev-test,Virtual Machines,compute,468.64
+2025-01-05,Azure,az-dev-test,Virtual Machines,compute,458.11
+2025-01-06,Azure,az-dev-test,Virtual Machines,compute,650.98
+2025-01-07,Azure,az-dev-test,Virtual Machines,compute,645.34
+2025-01-08,Azure,az-dev-test,Virtual Machines,compute,668.64
+2025-01-09,Azure,az-dev-test,Virtual Machines,compute,681.52
+2025-01-10,Azure,az-dev-test,Virtual Machines,compute,686.94
+2025-01-11,Azure,az-dev-test,Virtual Machines,compute,467.21
+2025-01-12,Azure,az-dev-test,Virtual Machines,compute,448.22
+2025-01-13,Azure,az-dev-test,Virtual Machines,compute,682.79
+2025-01-14,Azure,az-dev-test,Virtual Machines,compute,682.7
+2025-01-15,Azure,az-dev-test,Virtual Machines,compute,656.14
+2025-01-16,Azure,az-dev-test,Virtual Machines,compute,681.09
+2025-01-17,Azure,az-dev-test,Virtual Machines,compute,654.02
+2025-01-18,Azure,az-dev-test,Virtual Machines,compute,475.96
+2025-01-19,Azure,az-dev-test,Virtual Machines,compute,486.38
+2025-01-20,Azure,az-dev-test,Virtual Machines,compute,653.23
+2025-01-21,Azure,az-dev-test,Virtual Machines,compute,663.0
+2025-01-22,Azure,az-dev-test,Virtual Machines,compute,672.13
+2025-01-23,Azure,az-dev-test,Virtual Machines,compute,715.52
+2025-01-24,Azure,az-dev-test,Virtual Machines,compute,666.94
+2025-01-25,Azure,az-dev-test,Virtual Machines,compute,481.52
+2025-01-26,Azure,az-dev-test,Virtual Machines,compute,468.57
+2025-01-27,Azure,az-dev-test,Virtual Machines,compute,635.71
+2025-01-28,Azure,az-dev-test,Virtual Machines,compute,641.04
+2025-01-29,Azure,az-dev-test,Virtual Machines,compute,646.23
+2025-01-30,Azure,az-dev-test,Virtual Machines,compute,666.1
+2025-01-31,Azure,az-dev-test,Virtual Machines,compute,684.84
+2025-01-01,Azure,az-dev-test,Blob Storage,storage,214.48
+2025-01-02,Azure,az-dev-test,Blob Storage,storage,220.05
+2025-01-03,Azure,az-dev-test,Blob Storage,storage,216.22
+2025-01-04,Azure,az-dev-test,Blob Storage,storage,218.21
+2025-01-05,Azure,az-dev-test,Blob Storage,storage,220.78
+2025-01-06,Azure,az-dev-test,Blob Storage,storage,220.45
+2025-01-07,Azure,az-dev-test,Blob Storage,storage,215.17
+2025-01-08,Azure,az-dev-test,Blob Storage,storage,213.82
+2025-01-09,Azure,az-dev-test,Blob Storage,storage,219.14
+2025-01-10,Azure,az-dev-test,Blob Storage,storage,216.28
+2025-01-11,Azure,az-dev-test,Blob Storage,storage,219.94
+2025-01-12,Azure,az-dev-test,Blob Storage,storage,217.83
+2025-01-13,Azure,az-dev-test,Blob Storage,storage,218.45
+2025-01-14,Azure,az-dev-test,Blob Storage,storage,214.51
+2025-01-15,Azure,az-dev-test,Blob Storage,storage,214.78
+2025-01-16,Azure,az-dev-test,Blob Storage,storage,214.22
+2025-01-17,Azure,az-dev-test,Blob Storage,storage,217.07
+2025-01-18,Azure,az-dev-test,Blob Storage,storage,218.19
+2025-01-19,Azure,az-dev-test,Blob Storage,storage,219.85
+2025-01-20,Azure,az-dev-test,Blob Storage,storage,218.02
+2025-01-21,Azure,az-dev-test,Blob Storage,storage,215.93
+2025-01-22,Azure,az-dev-test,Blob Storage,storage,218.07
+2025-01-23,Azure,az-dev-test,Blob Storage,storage,215.77
+2025-01-24,Azure,az-dev-test,Blob Storage,storage,220.64
+2025-01-25,Azure,az-dev-test,Blob Storage,storage,219.74
+2025-01-26,Azure,az-dev-test,Blob Storage,storage,218.74
+2025-01-27,Azure,az-dev-test,Blob Storage,storage,220.54
+2025-01-28,Azure,az-dev-test,Blob Storage,storage,219.95
+2025-01-29,Azure,az-dev-test,Blob Storage,storage,215.24
+2025-01-30,Azure,az-dev-test,Blob Storage,storage,214.63
+2025-01-31,Azure,az-dev-test,Blob Storage,storage,220.36
+2025-01-01,Azure,az-dev-test,Azure SQL Database,database,308.77
+2025-01-02,Azure,az-dev-test,Azure SQL Database,database,295.46
+2025-01-03,Azure,az-dev-test,Azure SQL Database,database,288.48
+2025-01-04,Azure,az-dev-test,Azure SQL Database,database,224.17
+2025-01-05,Azure,az-dev-test,Azure SQL Database,database,220.62
+2025-01-06,Azure,az-dev-test,Azure SQL Database,database,300.39
+2025-01-07,Azure,az-dev-test,Azure SQL Database,database,304.78
+2025-01-08,Azure,az-dev-test,Azure SQL Database,database,307.42
+2025-01-09,Azure,az-dev-test,Azure SQL Database,database,300.21
+2025-01-10,Azure,az-dev-test,Azure SQL Database,database,310.97
+2025-01-11,Azure,az-dev-test,Azure SQL Database,database,231.4
+2025-01-12,Azure,az-dev-test,Azure SQL Database,database,233.74
+2025-01-13,Azure,az-dev-test,Azure SQL Database,database,300.25
+2025-01-14,Azure,az-dev-test,Azure SQL Database,database,302.67
+2025-01-15,Azure,az-dev-test,Azure SQL Database,database,314.2
+2025-01-16,Azure,az-dev-test,Azure SQL Database,database,319.14
+2025-01-17,Azure,az-dev-test,Azure SQL Database,database,307.27
+2025-01-18,Azure,az-dev-test,Azure SQL Database,database,227.66
+2025-01-19,Azure,az-dev-test,Azure SQL Database,database,223.73
+2025-01-20,Azure,az-dev-test,Azure SQL Database,database,298.36
+2025-01-21,Azure,az-dev-test,Azure SQL Database,database,292.74
+2025-01-22,Azure,az-dev-test,Azure SQL Database,database,299.7
+2025-01-23,Azure,az-dev-test,Azure SQL Database,database,309.44
+2025-01-24,Azure,az-dev-test,Azure SQL Database,database,303.12
+2025-01-25,Azure,az-dev-test,Azure SQL Database,database,229.16
+2025-01-26,Azure,az-dev-test,Azure SQL Database,database,229.34
+2025-01-27,Azure,az-dev-test,Azure SQL Database,database,316.29
+2025-01-28,Azure,az-dev-test,Azure SQL Database,database,308.11
+2025-01-29,Azure,az-dev-test,Azure SQL Database,database,304.46
+2025-01-30,Azure,az-dev-test,Azure SQL Database,database,315.62
+2025-01-31,Azure,az-dev-test,Azure SQL Database,database,311.31
+2025-01-01,Azure,az-dev-test,Bandwidth,networking,119.88
+2025-01-02,Azure,az-dev-test,Bandwidth,networking,115.4
+2025-01-03,Azure,az-dev-test,Bandwidth,networking,117.86
+2025-01-04,Azure,az-dev-test,Bandwidth,networking,90.22
+2025-01-05,Azure,az-dev-test,Bandwidth,networking,84.07
+2025-01-06,Azure,az-dev-test,Bandwidth,networking,108.94
+2025-01-07,Azure,az-dev-test,Bandwidth,networking,117.28
+2025-01-08,Azure,az-dev-test,Bandwidth,networking,119.0
+2025-01-09,Azure,az-dev-test,Bandwidth,networking,120.62
+2025-01-10,Azure,az-dev-test,Bandwidth,networking,120.3
+2025-01-11,Azure,az-dev-test,Bandwidth,networking,97.08
+2025-01-12,Azure,az-dev-test,Bandwidth,networking,98.17
+2025-01-13,Azure,az-dev-test,Bandwidth,networking,118.38
+2025-01-14,Azure,az-dev-test,Bandwidth,networking,118.48
+2025-01-15,Azure,az-dev-test,Bandwidth,networking,129.25
+2025-01-16,Azure,az-dev-test,Bandwidth,networking,124.25
+2025-01-17,Azure,az-dev-test,Bandwidth,networking,121.23
+2025-01-18,Azure,az-dev-test,Bandwidth,networking,96.12
+2025-01-19,Azure,az-dev-test,Bandwidth,networking,94.14
+2025-01-20,Azure,az-dev-test,Bandwidth,networking,115.17
+2025-01-21,Azure,az-dev-test,Bandwidth,networking,117.85
+2025-01-22,Azure,az-dev-test,Bandwidth,networking,114.91
+2025-01-23,Azure,az-dev-test,Bandwidth,networking,115.63
+2025-01-24,Azure,az-dev-test,Bandwidth,networking,112.21
+2025-01-25,Azure,az-dev-test,Bandwidth,networking,92.68
+2025-01-26,Azure,az-dev-test,Bandwidth,networking,96.55
+2025-01-27,Azure,az-dev-test,Bandwidth,networking,118.23
+2025-01-28,Azure,az-dev-test,Bandwidth,networking,106.61
+2025-01-29,Azure,az-dev-test,Bandwidth,networking,115.91
+2025-01-30,Azure,az-dev-test,Bandwidth,networking,121.52
+2025-01-31,Azure,az-dev-test,Bandwidth,networking,115.73
+2025-01-01,Azure,az-dev-test,Azure OpenAI,ai_ml,160.19
+2025-01-02,Azure,az-dev-test,Azure OpenAI,ai_ml,167.72
+2025-01-03,Azure,az-dev-test,Azure OpenAI,ai_ml,156.6
+2025-01-04,Azure,az-dev-test,Azure OpenAI,ai_ml,110.2
+2025-01-05,Azure,az-dev-test,Azure OpenAI,ai_ml,111.55
+2025-01-06,Azure,az-dev-test,Azure OpenAI,ai_ml,157.62
+2025-01-07,Azure,az-dev-test,Azure OpenAI,ai_ml,160.41
+2025-01-08,Azure,az-dev-test,Azure OpenAI,ai_ml,173.69
+2025-01-09,Azure,az-dev-test,Azure OpenAI,ai_ml,158.38
+2025-01-10,Azure,az-dev-test,Azure OpenAI,ai_ml,153.09
+2025-01-11,Azure,az-dev-test,Azure OpenAI,ai_ml,104.03
+2025-01-12,Azure,az-dev-test,Azure OpenAI,ai_ml,121.66
+2025-01-13,Azure,az-dev-test,Azure OpenAI,ai_ml,170.88
+2025-01-14,Azure,az-dev-test,Azure OpenAI,ai_ml,175.38
+2025-01-15,Azure,az-dev-test,Azure OpenAI,ai_ml,175.29
+2025-01-16,Azure,az-dev-test,Azure OpenAI,ai_ml,166.57
+2025-01-17,Azure,az-dev-test,Azure OpenAI,ai_ml,170.07
+2025-01-18,Azure,az-dev-test,Azure OpenAI,ai_ml,107.73
+2025-01-19,Azure,az-dev-test,Azure OpenAI,ai_ml,107.01
+2025-01-20,Azure,az-dev-test,Azure OpenAI,ai_ml,151.73
+2025-01-21,Azure,az-dev-test,Azure OpenAI,ai_ml,160.98
+2025-01-22,Azure,az-dev-test,Azure OpenAI,ai_ml,175.49
+2025-01-23,Azure,az-dev-test,Azure OpenAI,ai_ml,174.25
+2025-01-24,Azure,az-dev-test,Azure OpenAI,ai_ml,184.99
+2025-01-25,Azure,az-dev-test,Azure OpenAI,ai_ml,120.21
+2025-01-26,Azure,az-dev-test,Azure OpenAI,ai_ml,115.71
+2025-01-27,Azure,az-dev-test,Azure OpenAI,ai_ml,168.86
+2025-01-28,Azure,az-dev-test,Azure OpenAI,ai_ml,166.0
+2025-01-29,Azure,az-dev-test,Azure OpenAI,ai_ml,155.17
+2025-01-30,Azure,az-dev-test,Azure OpenAI,ai_ml,161.5
+2025-01-31,Azure,az-dev-test,Azure OpenAI,ai_ml,169.07
+2025-01-01,Azure,az-dev-test,Synapse Analytics,analytics,105.47
+2025-01-02,Azure,az-dev-test,Synapse Analytics,analytics,110.55
+2025-01-03,Azure,az-dev-test,Synapse Analytics,analytics,109.85
+2025-01-04,Azure,az-dev-test,Synapse Analytics,analytics,69.64
+2025-01-05,Azure,az-dev-test,Synapse Analytics,analytics,64.73
+2025-01-06,Azure,az-dev-test,Synapse Analytics,analytics,114.06
+2025-01-07,Azure,az-dev-test,Synapse Analytics,analytics,110.13
+2025-01-08,Azure,az-dev-test,Synapse Analytics,analytics,111.18
+2025-01-09,Azure,az-dev-test,Synapse Analytics,analytics,110.94
+2025-01-10,Azure,az-dev-test,Synapse Analytics,analytics,117.47
+2025-01-11,Azure,az-dev-test,Synapse Analytics,analytics,69.98
+2025-01-12,Azure,az-dev-test,Synapse Analytics,analytics,64.35
+2025-01-13,Azure,az-dev-test,Synapse Analytics,analytics,101.47
+2025-01-14,Azure,az-dev-test,Synapse Analytics,analytics,102.86
+2025-01-15,Azure,az-dev-test,Synapse Analytics,analytics,98.62
+2025-01-16,Azure,az-dev-test,Synapse Analytics,analytics,94.66
+2025-01-17,Azure,az-dev-test,Synapse Analytics,analytics,86.1
+2025-01-18,Azure,az-dev-test,Synapse Analytics,analytics,51.3
+2025-01-19,Azure,az-dev-test,Synapse Analytics,analytics,65.33
+2025-01-20,Azure,az-dev-test,Synapse Analytics,analytics,102.35
+2025-01-21,Azure,az-dev-test,Synapse Analytics,analytics,118.52
+2025-01-22,Azure,az-dev-test,Synapse Analytics,analytics,114.98
+2025-01-23,Azure,az-dev-test,Synapse Analytics,analytics,109.79
+2025-01-24,Azure,az-dev-test,Synapse Analytics,analytics,97.05
+2025-01-25,Azure,az-dev-test,Synapse Analytics,analytics,60.78
+2025-01-26,Azure,az-dev-test,Synapse Analytics,analytics,70.8
+2025-01-27,Azure,az-dev-test,Synapse Analytics,analytics,124.47
+2025-01-28,Azure,az-dev-test,Synapse Analytics,analytics,117.0
+2025-01-29,Azure,az-dev-test,Synapse Analytics,analytics,102.81
+2025-01-30,Azure,az-dev-test,Synapse Analytics,analytics,151.43
+2025-01-31,Azure,az-dev-test,Synapse Analytics,analytics,148.73
+2025-01-01,GCP,gcp-prod-web,Compute Engine,compute,1659.79
+2025-01-02,GCP,gcp-prod-web,Compute Engine,compute,1735.33
+2025-01-03,GCP,gcp-prod-web,Compute Engine,compute,1745.99
+2025-01-04,GCP,gcp-prod-web,Compute Engine,compute,1629.87
+2025-01-05,GCP,gcp-prod-web,Compute Engine,compute,1561.83
+2025-01-06,GCP,gcp-prod-web,Compute Engine,compute,1659.92
+2025-01-07,GCP,gcp-prod-web,Compute Engine,compute,1640.13
+2025-01-08,GCP,gcp-prod-web,Compute Engine,compute,1572.26
+2025-01-09,GCP,gcp-prod-web,Compute Engine,compute,1685.02
+2025-01-10,GCP,gcp-prod-web,Compute Engine,compute,1706.62
+2025-01-11,GCP,gcp-prod-web,Compute Engine,compute,1545.58
+2025-01-12,GCP,gcp-prod-web,Compute Engine,compute,1603.61
+2025-01-13,GCP,gcp-prod-web,Compute Engine,compute,1656.55
+2025-01-14,GCP,gcp-prod-web,Compute Engine,compute,1565.52
+2025-01-15,GCP,gcp-prod-web,Compute Engine,compute,1659.2
+2025-01-16,GCP,gcp-prod-web,Compute Engine,compute,1593.99
+2025-01-17,GCP,gcp-prod-web,Compute Engine,compute,1614.69
+2025-01-18,GCP,gcp-prod-web,Compute Engine,compute,1530.11
+2025-01-19,GCP,gcp-prod-web,Compute Engine,compute,1553.15
+2025-01-20,GCP,gcp-prod-web,Compute Engine,compute,1706.59
+2025-01-21,GCP,gcp-prod-web,Compute Engine,compute,1711.44
+2025-01-22,GCP,gcp-prod-web,Compute Engine,compute,1712.49
+2025-01-23,GCP,gcp-prod-web,Compute Engine,compute,1645.02
+2025-01-24,GCP,gcp-prod-web,Compute Engine,compute,1666.41
+2025-01-25,GCP,gcp-prod-web,Compute Engine,compute,1477.19
+2025-01-26,GCP,gcp-prod-web,Compute Engine,compute,1582.93
+2025-01-27,GCP,gcp-prod-web,Compute Engine,compute,1610.72
+2025-01-28,GCP,gcp-prod-web,Compute Engine,compute,1618.08
+2025-01-29,GCP,gcp-prod-web,Compute Engine,compute,1574.88
+2025-01-30,GCP,gcp-prod-web,Compute Engine,compute,1676.81
+2025-01-31,GCP,gcp-prod-web,Compute Engine,compute,1719.07
+2025-01-01,GCP,gcp-prod-web,Cloud Storage,storage,574.7
+2025-01-02,GCP,gcp-prod-web,Cloud Storage,storage,582.67
+2025-01-03,GCP,gcp-prod-web,Cloud Storage,storage,568.29
+2025-01-04,GCP,gcp-prod-web,Cloud Storage,storage,571.34
+2025-01-05,GCP,gcp-prod-web,Cloud Storage,storage,557.27
+2025-01-06,GCP,gcp-prod-web,Cloud Storage,storage,553.61
+2025-01-07,GCP,gcp-prod-web,Cloud Storage,storage,558.34
+2025-01-08,GCP,gcp-prod-web,Cloud Storage,storage,573.59
+2025-01-09,GCP,gcp-prod-web,Cloud Storage,storage,567.26
+2025-01-10,GCP,gcp-prod-web,Cloud Storage,storage,564.01
+2025-01-11,GCP,gcp-prod-web,Cloud Storage,storage,568.83
+2025-01-12,GCP,gcp-prod-web,Cloud Storage,storage,571.42
+2025-01-13,GCP,gcp-prod-web,Cloud Storage,storage,566.81
+2025-01-14,GCP,gcp-prod-web,Cloud Storage,storage,585.38
+2025-01-15,GCP,gcp-prod-web,Cloud Storage,storage,577.92
+2025-01-16,GCP,gcp-prod-web,Cloud Storage,storage,577.22
+2025-01-17,GCP,gcp-prod-web,Cloud Storage,storage,573.2
+2025-01-18,GCP,gcp-prod-web,Cloud Storage,storage,577.64
+2025-01-19,GCP,gcp-prod-web,Cloud Storage,storage,586.07
+2025-01-20,GCP,gcp-prod-web,Cloud Storage,storage,593.8
+2025-01-21,GCP,gcp-prod-web,Cloud Storage,storage,579.34
+2025-01-22,GCP,gcp-prod-web,Cloud Storage,storage,586.43
+2025-01-23,GCP,gcp-prod-web,Cloud Storage,storage,585.97
+2025-01-24,GCP,gcp-prod-web,Cloud Storage,storage,589.15
+2025-01-25,GCP,gcp-prod-web,Cloud Storage,storage,582.8
+2025-01-26,GCP,gcp-prod-web,Cloud Storage,storage,579.1
+2025-01-27,GCP,gcp-prod-web,Cloud Storage,storage,585.91
+2025-01-28,GCP,gcp-prod-web,Cloud Storage,storage,589.67
+2025-01-29,GCP,gcp-prod-web,Cloud Storage,storage,596.44
+2025-01-30,GCP,gcp-prod-web,Cloud Storage,storage,589.48
+2025-01-31,GCP,gcp-prod-web,Cloud Storage,storage,583.87
+2025-01-01,GCP,gcp-prod-web,Cloud SQL,database,864.71
+2025-01-02,GCP,gcp-prod-web,Cloud SQL,database,887.27
+2025-01-03,GCP,gcp-prod-web,Cloud SQL,database,893.22
+2025-01-04,GCP,gcp-prod-web,Cloud SQL,database,880.29
+2025-01-05,GCP,gcp-prod-web,Cloud SQL,database,916.32
+2025-01-06,GCP,gcp-prod-web,Cloud SQL,database,945.25
+2025-01-07,GCP,gcp-prod-web,Cloud SQL,database,908.28
+2025-01-08,GCP,gcp-prod-web,Cloud SQL,database,922.13
+2025-01-09,GCP,gcp-prod-web,Cloud SQL,database,914.02
+2025-01-10,GCP,gcp-prod-web,Cloud SQL,database,904.27
+2025-01-11,GCP,gcp-prod-web,Cloud SQL,database,840.93
+2025-01-12,GCP,gcp-prod-web,Cloud SQL,database,840.78
+2025-01-13,GCP,gcp-prod-web,Cloud SQL,database,891.72
+2025-01-14,GCP,gcp-prod-web,Cloud SQL,database,918.36
+2025-01-15,GCP,gcp-prod-web,Cloud SQL,database,925.07
+2025-01-16,GCP,gcp-prod-web,Cloud SQL,database,960.87
+2025-01-17,GCP,gcp-prod-web,Cloud SQL,database,950.59
+2025-01-18,GCP,gcp-prod-web,Cloud SQL,database,892.55
+2025-01-19,GCP,gcp-prod-web,Cloud SQL,database,870.81
+2025-01-20,GCP,gcp-prod-web,Cloud SQL,database,888.52
+2025-01-21,GCP,gcp-prod-web,Cloud SQL,database,885.63
+2025-01-22,GCP,gcp-prod-web,Cloud SQL,database,881.36
+2025-01-23,GCP,gcp-prod-web,Cloud SQL,database,837.87
+2025-01-24,GCP,gcp-prod-web,Cloud SQL,database,850.71
+2025-01-25,GCP,gcp-prod-web,Cloud SQL,database,871.64
+2025-01-26,GCP,gcp-prod-web,Cloud SQL,database,876.82
+2025-01-27,GCP,gcp-prod-web,Cloud SQL,database,908.11
+2025-01-28,GCP,gcp-prod-web,Cloud SQL,database,919.25
+2025-01-29,GCP,gcp-prod-web,Cloud SQL,database,870.2
+2025-01-30,GCP,gcp-prod-web,Cloud SQL,database,942.32
+2025-01-31,GCP,gcp-prod-web,Cloud SQL,database,982.2
+2025-01-01,GCP,gcp-prod-web,Network Egress,networking,337.05
+2025-01-02,GCP,gcp-prod-web,Network Egress,networking,369.37
+2025-01-03,GCP,gcp-prod-web,Network Egress,networking,353.25
+2025-01-04,GCP,gcp-prod-web,Network Egress,networking,320.53
+2025-01-05,GCP,gcp-prod-web,Network Egress,networking,282.97
+2025-01-06,GCP,gcp-prod-web,Network Egress,networking,386.16
+2025-01-07,GCP,gcp-prod-web,Network Egress,networking,356.9
+2025-01-08,GCP,gcp-prod-web,Network Egress,networking,363.01
+2025-01-09,GCP,gcp-prod-web,Network Egress,networking,369.22
+2025-01-10,GCP,gcp-prod-web,Network Egress,networking,346.98
+2025-01-11,GCP,gcp-prod-web,Network Egress,networking,309.82
+2025-01-12,GCP,gcp-prod-web,Network Egress,networking,316.62
+2025-01-13,GCP,gcp-prod-web,Network Egress,networking,342.85
+2025-01-14,GCP,gcp-prod-web,Network Egress,networking,331.13
+2025-01-15,GCP,gcp-prod-web,Network Egress,networking,338.37
+2025-01-16,GCP,gcp-prod-web,Network Egress,networking,339.28
+2025-01-17,GCP,gcp-prod-web,Network Egress,networking,367.52
+2025-01-18,GCP,gcp-prod-web,Network Egress,networking,317.43
+2025-01-19,GCP,gcp-prod-web,Network Egress,networking,305.66
+2025-01-20,GCP,gcp-prod-web,Network Egress,networking,361.33
+2025-01-21,GCP,gcp-prod-web,Network Egress,networking,317.48
+2025-01-22,GCP,gcp-prod-web,Network Egress,networking,320.65
+2025-01-23,GCP,gcp-prod-web,Network Egress,networking,337.8
+2025-01-24,GCP,gcp-prod-web,Network Egress,networking,362.03
+2025-01-25,GCP,gcp-prod-web,Network Egress,networking,307.41
+2025-01-26,GCP,gcp-prod-web,Network Egress,networking,326.18
+2025-01-27,GCP,gcp-prod-web,Network Egress,networking,378.97
+2025-01-28,GCP,gcp-prod-web,Network Egress,networking,353.12
+2025-01-29,GCP,gcp-prod-web,Network Egress,networking,347.16
+2025-01-30,GCP,gcp-prod-web,Network Egress,networking,364.88
+2025-01-31,GCP,gcp-prod-web,Network Egress,networking,352.61
+2025-01-01,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,518.05
+2025-01-02,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,507.05
+2025-01-03,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,509.12
+2025-01-04,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,427.87
+2025-01-05,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,427.93
+2025-01-06,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,480.14
+2025-01-07,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,476.79
+2025-01-08,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,516.71
+2025-01-09,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,546.53
+2025-01-10,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,479.43
+2025-01-11,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,406.2
+2025-01-12,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,432.47
+2025-01-13,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,559.68
+2025-01-14,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,583.92
+2025-01-15,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,510.54
+2025-01-16,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,541.67
+2025-01-17,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,518.69
+2025-01-18,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,458.36
+2025-01-19,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,460.51
+2025-01-20,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,479.91
+2025-01-21,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,504.57
+2025-01-22,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,532.29
+2025-01-23,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,514.15
+2025-01-24,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,498.83
+2025-01-25,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,385.7
+2025-01-26,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,422.1
+2025-01-27,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,505.14
+2025-01-28,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,476.09
+2025-01-29,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,479.59
+2025-01-30,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,495.97
+2025-01-31,GCP,gcp-prod-web,Vertex AI Prediction,ai_ml,483.4
+2025-01-01,GCP,gcp-prod-web,BigQuery,analytics,276.09
+2025-01-02,GCP,gcp-prod-web,BigQuery,analytics,271.89
+2025-01-03,GCP,gcp-prod-web,BigQuery,analytics,270.94
+2025-01-04,GCP,gcp-prod-web,BigQuery,analytics,204.97
+2025-01-05,GCP,gcp-prod-web,BigQuery,analytics,215.64
+2025-01-06,GCP,gcp-prod-web,BigQuery,analytics,274.87
+2025-01-07,GCP,gcp-prod-web,BigQuery,analytics,265.65
+2025-01-08,GCP,gcp-prod-web,BigQuery,analytics,281.96
+2025-01-09,GCP,gcp-prod-web,BigQuery,analytics,297.89
+2025-01-10,GCP,gcp-prod-web,BigQuery,analytics,298.87
+2025-01-11,GCP,gcp-prod-web,BigQuery,analytics,212.6
+2025-01-12,GCP,gcp-prod-web,BigQuery,analytics,217.0
+2025-01-13,GCP,gcp-prod-web,BigQuery,analytics,255.52
+2025-01-14,GCP,gcp-prod-web,BigQuery,analytics,265.96
+2025-01-15,GCP,gcp-prod-web,BigQuery,analytics,253.12
+2025-01-16,GCP,gcp-prod-web,BigQuery,analytics,287.31
+2025-01-17,GCP,gcp-prod-web,BigQuery,analytics,295.82
+2025-01-18,GCP,gcp-prod-web,BigQuery,analytics,246.39
+2025-01-19,GCP,gcp-prod-web,BigQuery,analytics,249.66
+2025-01-20,GCP,gcp-prod-web,BigQuery,analytics,286.66
+2025-01-21,GCP,gcp-prod-web,BigQuery,analytics,271.83
+2025-01-22,GCP,gcp-prod-web,BigQuery,analytics,307.61
+2025-01-23,GCP,gcp-prod-web,BigQuery,analytics,286.75
+2025-01-24,GCP,gcp-prod-web,BigQuery,analytics,254.98
+2025-01-25,GCP,gcp-prod-web,BigQuery,analytics,226.56
+2025-01-26,GCP,gcp-prod-web,BigQuery,analytics,224.92
+2025-01-27,GCP,gcp-prod-web,BigQuery,analytics,307.88
+2025-01-28,GCP,gcp-prod-web,BigQuery,analytics,295.21
+2025-01-29,GCP,gcp-prod-web,BigQuery,analytics,283.88
+2025-01-30,GCP,gcp-prod-web,BigQuery,analytics,480.3
+2025-01-31,GCP,gcp-prod-web,BigQuery,analytics,405.84
+2025-01-01,GCP,gcp-ml-research,Compute Engine,compute,1353.07
+2025-01-02,GCP,gcp-ml-research,Compute Engine,compute,1401.32
+2025-01-03,GCP,gcp-ml-research,Compute Engine,compute,1320.74
+2025-01-04,GCP,gcp-ml-research,Compute Engine,compute,918.33
+2025-01-05,GCP,gcp-ml-research,Compute Engine,compute,957.72
+2025-01-06,GCP,gcp-ml-research,Compute Engine,compute,1431.47
+2025-01-07,GCP,gcp-ml-research,Compute Engine,compute,1338.41
+2025-01-08,GCP,gcp-ml-research,Compute Engine,compute,1304.27
+2025-01-09,GCP,gcp-ml-research,Compute Engine,compute,1332.08
+2025-01-10,GCP,gcp-ml-research,Compute Engine,compute,1307.73
+2025-01-11,GCP,gcp-ml-research,Compute Engine,compute,902.09
+2025-01-12,GCP,gcp-ml-research,Compute Engine,compute,923.23
+2025-01-13,GCP,gcp-ml-research,Compute Engine,compute,1388.2
+2025-01-14,GCP,gcp-ml-research,Compute Engine,compute,1306.07
+2025-01-15,GCP,gcp-ml-research,Compute Engine,compute,1379.48
+2025-01-16,GCP,gcp-ml-research,Compute Engine,compute,1331.46
+2025-01-17,GCP,gcp-ml-research,Compute Engine,compute,1345.19
+2025-01-18,GCP,gcp-ml-research,Compute Engine,compute,982.94
+2025-01-19,GCP,gcp-ml-research,Compute Engine,compute,966.54
+2025-01-20,GCP,gcp-ml-research,Compute Engine,compute,1343.7
+2025-01-21,GCP,gcp-ml-research,Compute Engine,compute,1367.07
+2025-01-22,GCP,gcp-ml-research,Compute Engine,compute,1342.24
+2025-01-23,GCP,gcp-ml-research,Compute Engine,compute,1358.39
+2025-01-24,GCP,gcp-ml-research,Compute Engine,compute,1336.88
+2025-01-25,GCP,gcp-ml-research,Compute Engine,compute,958.93
+2025-01-26,GCP,gcp-ml-research,Compute Engine,compute,906.61
+2025-01-27,GCP,gcp-ml-research,Compute Engine,compute,1274.04
+2025-01-28,GCP,gcp-ml-research,Compute Engine,compute,1248.65
+2025-01-29,GCP,gcp-ml-research,Compute Engine,compute,1287.95
+2025-01-30,GCP,gcp-ml-research,Compute Engine,compute,1326.09
+2025-01-31,GCP,gcp-ml-research,Compute Engine,compute,1340.65
+2025-01-01,GCP,gcp-ml-research,Cloud Storage,storage,285.29
+2025-01-02,GCP,gcp-ml-research,Cloud Storage,storage,287.38
+2025-01-03,GCP,gcp-ml-research,Cloud Storage,storage,280.64
+2025-01-04,GCP,gcp-ml-research,Cloud Storage,storage,282.72
+2025-01-05,GCP,gcp-ml-research,Cloud Storage,storage,285.9
+2025-01-06,GCP,gcp-ml-research,Cloud Storage,storage,282.29
+2025-01-07,GCP,gcp-ml-research,Cloud Storage,storage,279.29
+2025-01-08,GCP,gcp-ml-research,Cloud Storage,storage,282.69
+2025-01-09,GCP,gcp-ml-research,Cloud Storage,storage,277.15
+2025-01-10,GCP,gcp-ml-research,Cloud Storage,storage,275.9
+2025-01-11,GCP,gcp-ml-research,Cloud Storage,storage,276.87
+2025-01-12,GCP,gcp-ml-research,Cloud Storage,storage,281.49
+2025-01-13,GCP,gcp-ml-research,Cloud Storage,storage,283.06
+2025-01-14,GCP,gcp-ml-research,Cloud Storage,storage,286.95
+2025-01-15,GCP,gcp-ml-research,Cloud Storage,storage,281.75
+2025-01-16,GCP,gcp-ml-research,Cloud Storage,storage,279.07
+2025-01-17,GCP,gcp-ml-research,Cloud Storage,storage,283.28
+2025-01-18,GCP,gcp-ml-research,Cloud Storage,storage,280.63
+2025-01-19,GCP,gcp-ml-research,Cloud Storage,storage,280.1
+2025-01-20,GCP,gcp-ml-research,Cloud Storage,storage,275.4
+2025-01-21,GCP,gcp-ml-research,Cloud Storage,storage,280.88
+2025-01-22,GCP,gcp-ml-research,Cloud Storage,storage,288.39
+2025-01-23,GCP,gcp-ml-research,Cloud Storage,storage,282.71
+2025-01-24,GCP,gcp-ml-research,Cloud Storage,storage,287.54
+2025-01-25,GCP,gcp-ml-research,Cloud Storage,storage,286.03
+2025-01-26,GCP,gcp-ml-research,Cloud Storage,storage,279.11
+2025-01-27,GCP,gcp-ml-research,Cloud Storage,storage,278.92
+2025-01-28,GCP,gcp-ml-research,Cloud Storage,storage,278.69
+2025-01-29,GCP,gcp-ml-research,Cloud Storage,storage,280.97
+2025-01-30,GCP,gcp-ml-research,Cloud Storage,storage,284.92
+2025-01-31,GCP,gcp-ml-research,Cloud Storage,storage,292.37
+2025-01-01,GCP,gcp-ml-research,Cloud SQL,database,476.88
+2025-01-02,GCP,gcp-ml-research,Cloud SQL,database,474.37
+2025-01-03,GCP,gcp-ml-research,Cloud SQL,database,474.86
+2025-01-04,GCP,gcp-ml-research,Cloud SQL,database,373.66
+2025-01-05,GCP,gcp-ml-research,Cloud SQL,database,386.05
+2025-01-06,GCP,gcp-ml-research,Cloud SQL,database,529.19
+2025-01-07,GCP,gcp-ml-research,Cloud SQL,database,493.54
+2025-01-08,GCP,gcp-ml-research,Cloud SQL,database,479.52
+2025-01-09,GCP,gcp-ml-research,Cloud SQL,database,471.95
+2025-01-10,GCP,gcp-ml-research,Cloud SQL,database,502.71
+2025-01-11,GCP,gcp-ml-research,Cloud SQL,database,380.52
+2025-01-12,GCP,gcp-ml-research,Cloud SQL,database,379.05
+2025-01-13,GCP,gcp-ml-research,Cloud SQL,database,506.53
+2025-01-14,GCP,gcp-ml-research,Cloud SQL,database,503.49
+2025-01-15,GCP,gcp-ml-research,Cloud SQL,database,488.42
+2025-01-16,GCP,gcp-ml-research,Cloud SQL,database,502.07
+2025-01-17,GCP,gcp-ml-research,Cloud SQL,database,500.02
+2025-01-18,GCP,gcp-ml-research,Cloud SQL,database,364.62
+2025-01-19,GCP,gcp-ml-research,Cloud SQL,database,376.6
+2025-01-20,GCP,gcp-ml-research,Cloud SQL,database,497.38
+2025-01-21,GCP,gcp-ml-research,Cloud SQL,database,503.63
+2025-01-22,GCP,gcp-ml-research,Cloud SQL,database,502.32
+2025-01-23,GCP,gcp-ml-research,Cloud SQL,database,515.23
+2025-01-24,GCP,gcp-ml-research,Cloud SQL,database,512.94
+2025-01-25,GCP,gcp-ml-research,Cloud SQL,database,373.11
+2025-01-26,GCP,gcp-ml-research,Cloud SQL,database,379.24
+2025-01-27,GCP,gcp-ml-research,Cloud SQL,database,510.38
+2025-01-28,GCP,gcp-ml-research,Cloud SQL,database,514.99
+2025-01-29,GCP,gcp-ml-research,Cloud SQL,database,524.57
+2025-01-30,GCP,gcp-ml-research,Cloud SQL,database,532.69
+2025-01-31,GCP,gcp-ml-research,Cloud SQL,database,541.79
+2025-01-01,GCP,gcp-ml-research,Network Egress,networking,149.42
+2025-01-02,GCP,gcp-ml-research,Network Egress,networking,144.25
+2025-01-03,GCP,gcp-ml-research,Network Egress,networking,138.42
+2025-01-04,GCP,gcp-ml-research,Network Egress,networking,121.96
+2025-01-05,GCP,gcp-ml-research,Network Egress,networking,134.15
+2025-01-06,GCP,gcp-ml-research,Network Egress,networking,173.83
+2025-01-07,GCP,gcp-ml-research,Network Egress,networking,165.5
+2025-01-08,GCP,gcp-ml-research,Network Egress,networking,154.0
+2025-01-09,GCP,gcp-ml-research,Network Egress,networking,150.09
+2025-01-10,GCP,gcp-ml-research,Network Egress,networking,151.89
+2025-01-11,GCP,gcp-ml-research,Network Egress,networking,117.12
+2025-01-12,GCP,gcp-ml-research,Network Egress,networking,125.87
+2025-01-13,GCP,gcp-ml-research,Network Egress,networking,137.03
+2025-01-14,GCP,gcp-ml-research,Network Egress,networking,140.0
+2025-01-15,GCP,gcp-ml-research,Network Egress,networking,149.82
+2025-01-16,GCP,gcp-ml-research,Network Egress,networking,142.3
+2025-01-17,GCP,gcp-ml-research,Network Egress,networking,143.12
+2025-01-18,GCP,gcp-ml-research,Network Egress,networking,119.92
+2025-01-19,GCP,gcp-ml-research,Network Egress,networking,128.79
+2025-01-20,GCP,gcp-ml-research,Network Egress,networking,144.16
+2025-01-21,GCP,gcp-ml-research,Network Egress,networking,135.91
+2025-01-22,GCP,gcp-ml-research,Network Egress,networking,134.9
+2025-01-23,GCP,gcp-ml-research,Network Egress,networking,130.35
+2025-01-24,GCP,gcp-ml-research,Network Egress,networking,128.62
+2025-01-25,GCP,gcp-ml-research,Network Egress,networking,104.87
+2025-01-26,GCP,gcp-ml-research,Network Egress,networking,118.75
+2025-01-27,GCP,gcp-ml-research,Network Egress,networking,145.78
+2025-01-28,GCP,gcp-ml-research,Network Egress,networking,147.09
+2025-01-29,GCP,gcp-ml-research,Network Egress,networking,140.37
+2025-01-30,GCP,gcp-ml-research,Network Egress,networking,153.42
+2025-01-31,GCP,gcp-ml-research,Network Egress,networking,168.59
+2025-01-01,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,620.03
+2025-01-02,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,636.77
+2025-01-03,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,629.36
+2025-01-04,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,439.86
+2025-01-05,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,429.04
+2025-01-06,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,663.49
+2025-01-07,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,597.53
+2025-01-08,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,654.04
+2025-01-09,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,624.2
+2025-01-10,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,593.28
+2025-01-11,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,442.74
+2025-01-12,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,448.12
+2025-01-13,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,705.81
+2025-01-14,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,692.24
+2025-01-15,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,663.51
+2025-01-16,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,642.63
+2025-01-17,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,674.71
+2025-01-18,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,459.34
+2025-01-19,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,437.32
+2025-01-20,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,747.84
+2025-01-21,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,687.44
+2025-01-22,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,613.29
+2025-01-23,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,568.18
+2025-01-24,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,548.28
+2025-01-25,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,378.4
+2025-01-26,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,394.43
+2025-01-27,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,655.2
+2025-01-28,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,652.43
+2025-01-29,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,686.75
+2025-01-30,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,671.63
+2025-01-31,GCP,gcp-ml-research,Vertex AI Prediction,ai_ml,663.28
+2025-01-01,GCP,gcp-ml-research,BigQuery,analytics,162.22
+2025-01-02,GCP,gcp-ml-research,BigQuery,analytics,161.53
+2025-01-03,GCP,gcp-ml-research,BigQuery,analytics,152.52
+2025-01-04,GCP,gcp-ml-research,BigQuery,analytics,100.14
+2025-01-05,GCP,gcp-ml-research,BigQuery,analytics,102.26
+2025-01-06,GCP,gcp-ml-research,BigQuery,analytics,174.11
+2025-01-07,GCP,gcp-ml-research,BigQuery,analytics,169.96
+2025-01-08,GCP,gcp-ml-research,BigQuery,analytics,166.53
+2025-01-09,GCP,gcp-ml-research,BigQuery,analytics,181.27
+2025-01-10,GCP,gcp-ml-research,BigQuery,analytics,187.15
+2025-01-11,GCP,gcp-ml-research,BigQuery,analytics,117.27
+2025-01-12,GCP,gcp-ml-research,BigQuery,analytics,111.52
+2025-01-13,GCP,gcp-ml-research,BigQuery,analytics,194.02
+2025-01-14,GCP,gcp-ml-research,BigQuery,analytics,175.4
+2025-01-15,GCP,gcp-ml-research,BigQuery,analytics,169.32
+2025-01-16,GCP,gcp-ml-research,BigQuery,analytics,183.28
+2025-01-17,GCP,gcp-ml-research,BigQuery,analytics,186.13
+2025-01-18,GCP,gcp-ml-research,BigQuery,analytics,104.06
+2025-01-19,GCP,gcp-ml-research,BigQuery,analytics,95.35
+2025-01-20,GCP,gcp-ml-research,BigQuery,analytics,161.29
+2025-01-21,GCP,gcp-ml-research,BigQuery,analytics,157.19
+2025-01-22,GCP,gcp-ml-research,BigQuery,analytics,183.41
+2025-01-23,GCP,gcp-ml-research,BigQuery,analytics,185.35
+2025-01-24,GCP,gcp-ml-research,BigQuery,analytics,167.67
+2025-01-25,GCP,gcp-ml-research,BigQuery,analytics,93.87
+2025-01-26,GCP,gcp-ml-research,BigQuery,analytics,92.38
+2025-01-27,GCP,gcp-ml-research,BigQuery,analytics,155.11
+2025-01-28,GCP,gcp-ml-research,BigQuery,analytics,160.01
+2025-01-29,GCP,gcp-ml-research,BigQuery,analytics,177.64
+2025-01-30,GCP,gcp-ml-research,BigQuery,analytics,251.2
+2025-01-31,GCP,gcp-ml-research,BigQuery,analytics,300.72
+2025-01-01,GCP,gcp-sandbox,Compute Engine,compute,554.52
+2025-01-02,GCP,gcp-sandbox,Compute Engine,compute,557.42
+2025-01-03,GCP,gcp-sandbox,Compute Engine,compute,551.74
+2025-01-04,GCP,gcp-sandbox,Compute Engine,compute,374.61
+2025-01-05,GCP,gcp-sandbox,Compute Engine,compute,360.03
+2025-01-06,GCP,gcp-sandbox,Compute Engine,compute,522.7
+2025-01-07,GCP,gcp-sandbox,Compute Engine,compute,542.0
+2025-01-08,GCP,gcp-sandbox,Compute Engine,compute,540.42
+2025-01-09,GCP,gcp-sandbox,Compute Engine,compute,508.05
+2025-01-10,GCP,gcp-sandbox,Compute Engine,compute,518.6
+2025-01-11,GCP,gcp-sandbox,Compute Engine,compute,345.07
+2025-01-12,GCP,gcp-sandbox,Compute Engine,compute,365.39
+2025-01-13,GCP,gcp-sandbox,Compute Engine,compute,513.4
+2025-01-14,GCP,gcp-sandbox,Compute Engine,compute,501.14
+2025-01-15,GCP,gcp-sandbox,Compute Engine,compute,526.82
+2025-01-16,GCP,gcp-sandbox,Compute Engine,compute,536.03
+2025-01-17,GCP,gcp-sandbox,Compute Engine,compute,535.47
+2025-01-18,GCP,gcp-sandbox,Compute Engine,compute,397.63
+2025-01-19,GCP,gcp-sandbox,Compute Engine,compute,390.74
+2025-01-20,GCP,gcp-sandbox,Compute Engine,compute,532.39
+2025-01-21,GCP,gcp-sandbox,Compute Engine,compute,538.72
+2025-01-22,GCP,gcp-sandbox,Compute Engine,compute,528.94
+2025-01-23,GCP,gcp-sandbox,Compute Engine,compute,549.48
+2025-01-24,GCP,gcp-sandbox,Compute Engine,compute,543.67
+2025-01-25,GCP,gcp-sandbox,Compute Engine,compute,379.76
+2025-01-26,GCP,gcp-sandbox,Compute Engine,compute,359.04
+2025-01-27,GCP,gcp-sandbox,Compute Engine,compute,522.08
+2025-01-28,GCP,gcp-sandbox,Compute Engine,compute,524.95
+2025-01-29,GCP,gcp-sandbox,Compute Engine,compute,511.26
+2025-01-30,GCP,gcp-sandbox,Compute Engine,compute,548.11
+2025-01-31,GCP,gcp-sandbox,Compute Engine,compute,562.42
+2025-01-01,GCP,gcp-sandbox,Cloud Storage,storage,164.94
+2025-01-02,GCP,gcp-sandbox,Cloud Storage,storage,163.09
+2025-01-03,GCP,gcp-sandbox,Cloud Storage,storage,160.8
+2025-01-04,GCP,gcp-sandbox,Cloud Storage,storage,161.3
+2025-01-05,GCP,gcp-sandbox,Cloud Storage,storage,161.45
+2025-01-06,GCP,gcp-sandbox,Cloud Storage,storage,165.15
+2025-01-07,GCP,gcp-sandbox,Cloud Storage,storage,167.23
+2025-01-08,GCP,gcp-sandbox,Cloud Storage,storage,163.88
+2025-01-09,GCP,gcp-sandbox,Cloud Storage,storage,166.11
+2025-01-10,GCP,gcp-sandbox,Cloud Storage,storage,167.06
+2025-01-11,GCP,gcp-sandbox,Cloud Storage,storage,163.63
+2025-01-12,GCP,gcp-sandbox,Cloud Storage,storage,164.31
+2025-01-13,GCP,gcp-sandbox,Cloud Storage,storage,165.6
+2025-01-14,GCP,gcp-sandbox,Cloud Storage,storage,165.91
+2025-01-15,GCP,gcp-sandbox,Cloud Storage,storage,162.11
+2025-01-16,GCP,gcp-sandbox,Cloud Storage,storage,164.16
+2025-01-17,GCP,gcp-sandbox,Cloud Storage,storage,166.32
+2025-01-18,GCP,gcp-sandbox,Cloud Storage,storage,169.52
+2025-01-19,GCP,gcp-sandbox,Cloud Storage,storage,166.25
+2025-01-20,GCP,gcp-sandbox,Cloud Storage,storage,164.95
+2025-01-21,GCP,gcp-sandbox,Cloud Storage,storage,165.06
+2025-01-22,GCP,gcp-sandbox,Cloud Storage,storage,166.23
+2025-01-23,GCP,gcp-sandbox,Cloud Storage,storage,166.44
+2025-01-24,GCP,gcp-sandbox,Cloud Storage,storage,167.69
+2025-01-25,GCP,gcp-sandbox,Cloud Storage,storage,164.62
+2025-01-26,GCP,gcp-sandbox,Cloud Storage,storage,166.4
+2025-01-27,GCP,gcp-sandbox,Cloud Storage,storage,164.88
+2025-01-28,GCP,gcp-sandbox,Cloud Storage,storage,165.45
+2025-01-29,GCP,gcp-sandbox,Cloud Storage,storage,169.81
+2025-01-30,GCP,gcp-sandbox,Cloud Storage,storage,165.26
+2025-01-31,GCP,gcp-sandbox,Cloud Storage,storage,165.47
+2025-01-01,GCP,gcp-sandbox,Cloud SQL,database,216.46
+2025-01-02,GCP,gcp-sandbox,Cloud SQL,database,214.19
+2025-01-03,GCP,gcp-sandbox,Cloud SQL,database,217.24
+2025-01-04,GCP,gcp-sandbox,Cloud SQL,database,164.01
+2025-01-05,GCP,gcp-sandbox,Cloud SQL,database,166.96
+2025-01-06,GCP,gcp-sandbox,Cloud SQL,database,228.57
+2025-01-07,GCP,gcp-sandbox,Cloud SQL,database,227.11
+2025-01-08,GCP,gcp-sandbox,Cloud SQL,database,219.71
+2025-01-09,GCP,gcp-sandbox,Cloud SQL,database,208.56
+2025-01-10,GCP,gcp-sandbox,Cloud SQL,database,210.81
+2025-01-11,GCP,gcp-sandbox,Cloud SQL,database,156.61
+2025-01-12,GCP,gcp-sandbox,Cloud SQL,database,158.38
+2025-01-13,GCP,gcp-sandbox,Cloud SQL,database,217.82
+2025-01-14,GCP,gcp-sandbox,Cloud SQL,database,220.32
+2025-01-15,GCP,gcp-sandbox,Cloud SQL,database,232.06
+2025-01-16,GCP,gcp-sandbox,Cloud SQL,database,229.81
+2025-01-17,GCP,gcp-sandbox,Cloud SQL,database,237.35
+2025-01-18,GCP,gcp-sandbox,Cloud SQL,database,175.39
+2025-01-19,GCP,gcp-sandbox,Cloud SQL,database,175.79
+2025-01-20,GCP,gcp-sandbox,Cloud SQL,database,226.03
+2025-01-21,GCP,gcp-sandbox,Cloud SQL,database,217.89
+2025-01-22,GCP,gcp-sandbox,Cloud SQL,database,217.45
+2025-01-23,GCP,gcp-sandbox,Cloud SQL,database,219.73
+2025-01-24,GCP,gcp-sandbox,Cloud SQL,database,217.38
+2025-01-25,GCP,gcp-sandbox,Cloud SQL,database,160.61
+2025-01-26,GCP,gcp-sandbox,Cloud SQL,database,165.41
+2025-01-27,GCP,gcp-sandbox,Cloud SQL,database,215.71
+2025-01-28,GCP,gcp-sandbox,Cloud SQL,database,210.44
+2025-01-29,GCP,gcp-sandbox,Cloud SQL,database,210.1
+2025-01-30,GCP,gcp-sandbox,Cloud SQL,database,225.59
+2025-01-31,GCP,gcp-sandbox,Cloud SQL,database,223.69
+2025-01-01,GCP,gcp-sandbox,Network Egress,networking,84.56
+2025-01-02,GCP,gcp-sandbox,Network Egress,networking,73.49
+2025-01-03,GCP,gcp-sandbox,Network Egress,networking,77.29
+2025-01-04,GCP,gcp-sandbox,Network Egress,networking,62.87
+2025-01-05,GCP,gcp-sandbox,Network Egress,networking,66.14
+2025-01-06,GCP,gcp-sandbox,Network Egress,networking,79.97
+2025-01-07,GCP,gcp-sandbox,Network Egress,networking,79.57
+2025-01-08,GCP,gcp-sandbox,Network Egress,networking,82.98
+2025-01-09,GCP,gcp-sandbox,Network Egress,networking,78.84
+2025-01-10,GCP,gcp-sandbox,Network Egress,networking,77.67
+2025-01-11,GCP,gcp-sandbox,Network Egress,networking,64.19
+2025-01-12,GCP,gcp-sandbox,Network Egress,networking,69.27
+2025-01-13,GCP,gcp-sandbox,Network Egress,networking,87.52
+2025-01-14,GCP,gcp-sandbox,Network Egress,networking,89.24
+2025-01-15,GCP,gcp-sandbox,Network Egress,networking,85.51
+2025-01-16,GCP,gcp-sandbox,Network Egress,networking,90.2
+2025-01-17,GCP,gcp-sandbox,Network Egress,networking,78.32
+2025-01-18,GCP,gcp-sandbox,Network Egress,networking,71.01
+2025-01-19,GCP,gcp-sandbox,Network Egress,networking,76.12
+2025-01-20,GCP,gcp-sandbox,Network Egress,networking,90.23
+2025-01-21,GCP,gcp-sandbox,Network Egress,networking,89.62
+2025-01-22,GCP,gcp-sandbox,Network Egress,networking,85.39
+2025-01-23,GCP,gcp-sandbox,Network Egress,networking,82.63
+2025-01-24,GCP,gcp-sandbox,Network Egress,networking,79.63
+2025-01-25,GCP,gcp-sandbox,Network Egress,networking,64.4
+2025-01-26,GCP,gcp-sandbox,Network Egress,networking,66.84
+2025-01-27,GCP,gcp-sandbox,Network Egress,networking,84.53
+2025-01-28,GCP,gcp-sandbox,Network Egress,networking,92.26
+2025-01-29,GCP,gcp-sandbox,Network Egress,networking,87.41
+2025-01-30,GCP,gcp-sandbox,Network Egress,networking,80.71
+2025-01-31,GCP,gcp-sandbox,Network Egress,networking,89.95
+2025-01-01,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,126.47
+2025-01-02,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,138.07
+2025-01-03,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,145.75
+2025-01-04,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,84.56
+2025-01-05,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,84.75
+2025-01-06,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,131.32
+2025-01-07,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,126.28
+2025-01-08,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,132.91
+2025-01-09,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,127.73
+2025-01-10,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,126.5
+2025-01-11,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,84.08
+2025-01-12,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,78.21
+2025-01-13,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,112.17
+2025-01-14,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,129.78
+2025-01-15,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,126.31
+2025-01-16,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,148.42
+2025-01-17,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,159.39
+2025-01-18,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,92.43
+2025-01-19,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,103.8
+2025-01-20,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,155.53
+2025-01-21,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,139.52
+2025-01-22,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,117.57
+2025-01-23,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,131.65
+2025-01-24,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,133.95
+2025-01-25,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,90.03
+2025-01-26,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,88.0
+2025-01-27,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,126.7
+2025-01-28,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,128.08
+2025-01-29,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,138.01
+2025-01-30,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,134.4
+2025-01-31,GCP,gcp-sandbox,Vertex AI Prediction,ai_ml,132.66
+2025-01-01,GCP,gcp-sandbox,BigQuery,analytics,69.28
+2025-01-02,GCP,gcp-sandbox,BigQuery,analytics,72.49
+2025-01-03,GCP,gcp-sandbox,BigQuery,analytics,60.27
+2025-01-04,GCP,gcp-sandbox,BigQuery,analytics,38.22
+2025-01-05,GCP,gcp-sandbox,BigQuery,analytics,42.11
+2025-01-06,GCP,gcp-sandbox,BigQuery,analytics,69.72
+2025-01-07,GCP,gcp-sandbox,BigQuery,analytics,76.15
+2025-01-08,GCP,gcp-sandbox,BigQuery,analytics,79.42
+2025-01-09,GCP,gcp-sandbox,BigQuery,analytics,69.75
+2025-01-10,GCP,gcp-sandbox,BigQuery,analytics,73.98
+2025-01-11,GCP,gcp-sandbox,BigQuery,analytics,40.32
+2025-01-12,GCP,gcp-sandbox,BigQuery,analytics,41.32
+2025-01-13,GCP,gcp-sandbox,BigQuery,analytics,72.71
+2025-01-14,GCP,gcp-sandbox,BigQuery,analytics,67.39
+2025-01-15,GCP,gcp-sandbox,BigQuery,analytics,72.62
+2025-01-16,GCP,gcp-sandbox,BigQuery,analytics,68.94
+2025-01-17,GCP,gcp-sandbox,BigQuery,analytics,66.84
+2025-01-18,GCP,gcp-sandbox,BigQuery,analytics,43.18
+2025-01-19,GCP,gcp-sandbox,BigQuery,analytics,40.27
+2025-01-20,GCP,gcp-sandbox,BigQuery,analytics,64.61
+2025-01-21,GCP,gcp-sandbox,BigQuery,analytics,72.47
+2025-01-22,GCP,gcp-sandbox,BigQuery,analytics,71.96
+2025-01-23,GCP,gcp-sandbox,BigQuery,analytics,64.37
+2025-01-24,GCP,gcp-sandbox,BigQuery,analytics,71.46
+2025-01-25,GCP,gcp-sandbox,BigQuery,analytics,41.4
+2025-01-26,GCP,gcp-sandbox,BigQuery,analytics,37.98
+2025-01-27,GCP,gcp-sandbox,BigQuery,analytics,56.18
+2025-01-28,GCP,gcp-sandbox,BigQuery,analytics,67.04
+2025-01-29,GCP,gcp-sandbox,BigQuery,analytics,64.83
+2025-01-30,GCP,gcp-sandbox,BigQuery,analytics,96.25
+2025-01-31,GCP,gcp-sandbox,BigQuery,analytics,107.35
