@@ -1,6 +1,6 @@
 {
   "project": "Cloud Cost Anomaly Radar",
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "health": {
     "rag": "AMBER",
     "reason": "AMBER: 0 overdue milestone(s), 0 open P0 item(s), 1 open risk(s) scored >= 15 (R1=16).",
@@ -200,7 +200,7 @@
     "Root-cause attribution ranked the injected series first for 12 of 12 detected anomalies (100%).",
     "Savings estimate covers 65% of the injected excess on detected anomalies ($92,693 of $142,213); 1 false-positive event(s), 1 of them on planned events."
   ],
-  "change_log": "2026-11-02: status run. Health AMBER; ensemble F1 0.96 on 14 events. Next focus: B15 Alert payload schema (event, driver, excess, runbook link).",
-  "executive_summary": "Cloud Cost Anomaly Radar is AMBER as of 2026-11-02 (open risks scoring 15+: R1). 4 of 6 milestones are done; still open: Cost-forecast extension, Slack alert integration. The ensemble flagged 14 events: precision 0.93, recall 1.00, F1 0.96 against 12 injected anomalies; none missed. Top risk is R1 (Alert fatigue from false positives erodes trust in alerts), score 16 (High). Next actions: B15 Alert payload schema (event, driver, excess, runbook link); B17 Change-calendar suppression for planned events; B12 Seasonal-naive and Holt-Winters 30-day forecast baseline.",
+  "change_log": "2026-11-03: status run. Health AMBER; ensemble F1 0.96 on 14 events. Next focus: B15 Alert payload schema (event, driver, excess, runbook link).",
+  "executive_summary": "Cloud Cost Anomaly Radar is AMBER as of 2026-11-03 (open risks scoring 15+: R1). 4 of 6 milestones are done; still open: Cost-forecast extension, Slack alert integration. The ensemble flagged 14 events: precision 0.93, recall 1.00, F1 0.96 against 12 injected anomalies; none missed. Top risk is R1 (Alert fatigue from false positives erodes trust in alerts), score 16 (High). Next actions: B15 Alert payload schema (event, driver, excess, runbook link); B17 Change-calendar suppression for planned events; B12 Seasonal-naive and Holt-Winters 30-day forecast baseline.",
   "executive_summary_source": "deterministic template"
 }
