@@ -134,7 +134,7 @@ def compute_health(milestones: list[dict], backlog: list[dict], risks: list[dict
         + f", {len(open_p0)} open P0 item(s)"
         + (f" ({', '.join(open_p0)})" if open_p0 else "")
         + f", {len(high_risks)} open risk(s) scored >= {HIGH_RISK_SCORE}"
-        + (f" ({', '.join(f'{r['id']}={r['score']}' for r in high_risks)})" if high_risks else "")
+        + (" (" + ", ".join("{}={}".format(r["id"], r["score"]) for r in high_risks) + ")" if high_risks else "")
     )
     if overdue or len(open_p0) > 1:
         rag = "RED"
